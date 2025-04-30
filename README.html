@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> | LiveScope </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" | LiveScope ">
+      
+      
+      <link rel="icon" href="favicon.ico">
+      <link rel="stylesheet" href="public/docfx.min.css">
+      <link rel="stylesheet" href="public/main.css">
+      <meta name="docfx:navrel" content="toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/djrecipe/LiveScope/blob/master/README.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="logo.svg" alt="LiveScope">
+            LiveScope
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+
+<h2 id="set-up-instructions">Set-up Instructions</h2>
+<h3 id="android">Android</h3>
+<ol>
+<li>Download and install Android Studio from <a href="https://developer.android.com/studio/">here</a></li>
+<li>Using Android Studio, install Android SDK to a non-default path, e.g. &quot;_C:\AndroidSDK_&quot;</li>
+<li>Download Android NDK 25.2.9519653 from <a href="https://github.com/android/ndk/wiki/Unsupported-Downloads">here</a></li>
+<li>Place the contents of the NDK into the correct SDK subpath. For example &quot;_C:\AndroidSDK\ndk\25.2.9519653_&quot; (this folder will now contain sub-directories such as <em>build</em>, <em>meta</em>, etc.)</li>
+<li>Configure Visual Studio options to point to the correct Android SDK and NDK
+<img width="324" alt="devenv_LJ6PX1JsKg" src="https://github.com/user-attachments/assets/dbfc0bb9-24d5-40c6-bdc8-daaa833a9b7f"></li>
+</ol>
+<h2 id="hardware-specific-limitations">Hardware-Specific Limitations</h2>
+<h3 id="android-glgenbuffer">Android <code>glGenBuffer</code></h3>
+<p>Typically I use NEW separate array element, color, normal and text buffers for EACH individual series displayed on a chart. However it seems that after a few series this will crash Android, and thus it is necessary to share more buffers (don't call <code>glGenBuffer</code> as often). See commit: ce2d4142c90585676a32f312fb97cb75e304c914</p>
+<h2 id="license-generation">License Generation</h2>
+<ol>
+<li>Generate a private key file (<em>private.key</em>) and public key file (<em>public.key</em>) via <code>LiveScopeLicenseGenerator.exe -pk {password}</code></li>
+<li>Generate a license key <code>LiveScopeLicenseGenerator.exe -trial {private_key_path} {password} {customer_name} {customer_email}</code></li>
+<li>Convert entire contents of license key to base64 string</li>
+<li>Now use this base64 string as your inline license!</li>
+</ol>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/djrecipe/LiveScope/blob/master/README.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

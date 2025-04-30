@@ -1,0 +1,2297 @@
+{
+  "source_base_path": "C:/space/LiveScope",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "CSUtilities/README.md",
+      "output": {
+        ".html": {
+          "relative_path": "CSUtilities/README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Avalonia.Android.AndroidAudioDataCapture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Avalonia.Android.AndroidAudioDataCapture.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Avalonia.Android.AndroidAudioDataCapture",
+      "Summary": "<p sourcefile=\"api/LiveScope.Avalonia.Android.AndroidAudioDataCapture.yml\" sourcestartlinenumber=\"1\">Audio data capture for Android platforms</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Avalonia.Android.Resource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Avalonia.Android.Resource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Avalonia.Android.Resource",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Avalonia.Android.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Avalonia.Android.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Avalonia.Android",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Avalonia.LiveScopeControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Avalonia.LiveScopeControl.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Avalonia.LiveScopeControl",
+      "Summary": "<p sourcefile=\"api/LiveScope.Avalonia.LiveScopeControl.yml\" sourcestartlinenumber=\"1\">LiveScope control for Avalonia</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Avalonia.LiveScopeMacOsControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Avalonia.LiveScopeMacOsControl.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Avalonia.LiveScopeMacOsControl",
+      "Summary": "<p sourcefile=\"api/LiveScope.Avalonia.LiveScopeMacOsControl.yml\" sourcestartlinenumber=\"1\">LiveScope control for MacOs</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Avalonia.STLControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Avalonia.STLControl.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Avalonia.STLControl",
+      "Summary": "<p sourcefile=\"api/LiveScope.Avalonia.STLControl.yml\" sourcestartlinenumber=\"1\">STL control for Avalonia</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Avalonia.STLMacOsControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Avalonia.STLMacOsControl.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Avalonia.STLMacOsControl",
+      "Summary": "<p sourcefile=\"api/LiveScope.Avalonia.STLMacOsControl.yml\" sourcestartlinenumber=\"1\">STL control for MacOs</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Avalonia.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Avalonia.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Avalonia",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.Client.ColorInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.Client.ColorInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.Client.ColorInfo",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.Client.ColorInfo.yml\" sourcestartlinenumber=\"1\">Chart color configuration</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.Client.ColorStruct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.Client.ColorStruct.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.Client.ColorStruct",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.Client.ColorStruct.yml\" sourcestartlinenumber=\"1\">RGB color representation</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.Client.Sample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.Client.Sample.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.Client.Sample",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.Client.Sample.yml\" sourcestartlinenumber=\"1\">Sample data</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.Client.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.Client",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.CsvDataCapture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.CsvDataCapture.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.CsvDataCapture",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.CsvDataCapture.yml\" sourcestartlinenumber=\"1\">Playback data from a .csv file</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.CursorOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.CursorOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.CursorOptions",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.CursorOptions.yml\" sourcestartlinenumber=\"1\">Cursor options</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.DataCapture.AudioDataCaptureFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.DataCapture.AudioDataCaptureFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.DataCapture.AudioDataCaptureFactory",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.DataCapture.AudioDataCaptureFactory.yml\" sourcestartlinenumber=\"1\">Assists in creating platform-specific audio data capture instances</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.DataCapture.HardwareDataCaptureFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.DataCapture.HardwareDataCaptureFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.DataCapture.HardwareDataCaptureFactory",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.DataCapture.HardwareDataCaptureFactory.yml\" sourcestartlinenumber=\"1\">Assists in creating platform-specific hardware data capture instances</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.DataCapture.ManualDataCapture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.DataCapture.ManualDataCapture.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.DataCapture.ManualDataCapture",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.DataCapture.ManualDataCapture.yml\" sourcestartlinenumber=\"1\">Capture sample data manually, via <xref href=\"LiveScope.Net.DataCapture.ManualDataCapture.PutData(LiveScope.Net.Client.Sample%5b%5d%40)\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.DataCapture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.DataCapture.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.DataCapture",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.DataSources.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.DataSources.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.DataSources",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.DataSources.yml\" sourcestartlinenumber=\"1\">Data capture sources</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.DataUpdateTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.DataUpdateTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.DataUpdateTypes",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.DataUpdateTypes.yml\" sourcestartlinenumber=\"1\">Determines how data buffer is modified each time new data is available</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.GenerativeDataCapture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.GenerativeDataCapture.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.GenerativeDataCapture",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.GenerativeDataCapture.yml\" sourcestartlinenumber=\"1\">Generate in-memory data for testing, using NWave</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.IAudioDataCapture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.IAudioDataCapture.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.IAudioDataCapture",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.IAudioDataCapture.yml\" sourcestartlinenumber=\"1\">Audio data capture</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.IBackgroundDataCapture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.IBackgroundDataCapture.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.IBackgroundDataCapture",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.IBackgroundDataCapture.yml\" sourcestartlinenumber=\"1\">Captures using an explicitly created background thread</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.IDataCapture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.IDataCapture.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.IDataCapture",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.IDataCapture.yml\" sourcestartlinenumber=\"1\">Data capture interface</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.IHardwareDataCapture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.IHardwareDataCapture.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.IHardwareDataCapture",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.IHardwareDataCapture.yml\" sourcestartlinenumber=\"1\">Audio data capture</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.IPeriodicEmissionCapture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.IPeriodicEmissionCapture.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.IPeriodicEmissionCapture",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.IPeriodicEmissionCapture.yml\" sourcestartlinenumber=\"1\">Emitted periodically</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.Licensing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.Licensing.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.Licensing",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.Licensing.yml\" sourcestartlinenumber=\"1\">Product licensing singleton</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.LiveScopeFileDataCapture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.LiveScopeFileDataCapture.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.LiveScopeFileDataCapture",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.LiveScopeFileDataCapture.yml\" sourcestartlinenumber=\"1\">Playback data from a LiveScope file</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.SampleOrderTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.SampleOrderTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.SampleOrderTypes",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.SampleOrderTypes.yml\" sourcestartlinenumber=\"1\">Order of samples in a dataset</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.SamplesDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.SamplesDelegate.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.SamplesDelegate",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.SamplesDelegate.yml\" sourcestartlinenumber=\"1\">Callback invoked whenever samples are ready to view</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.Series.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.Series.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.Series",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.Series.yml\" sourcestartlinenumber=\"1\">Chart series</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.SeriesColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.SeriesColor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.SeriesColor",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.SeriesColor.yml\" sourcestartlinenumber=\"1\">Series color configuration</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.SeriesDisplayTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.SeriesDisplayTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.SeriesDisplayTypes",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.SeriesDisplayTypes.yml\" sourcestartlinenumber=\"1\">Determines how series data is depicted on the chart</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.SeriesLayoutTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.SeriesLayoutTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.SeriesLayoutTypes",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.SeriesLayoutTypes.yml\" sourcestartlinenumber=\"1\">Visible layout of series on a chart</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.SeriesRenderOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.SeriesRenderOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.SeriesRenderOptions",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.SeriesRenderOptions.yml\" sourcestartlinenumber=\"1\">Various options for determining look and behavior of a series</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.StaticDataCapture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.StaticDataCapture.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.StaticDataCapture",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.StaticDataCapture.yml\" sourcestartlinenumber=\"1\">Static data capture from an in-memory byte array</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.SweepModes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.SweepModes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.SweepModes",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.SweepModes.yml\" sourcestartlinenumber=\"1\">Sweep acquisition modes,</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.UI.ILiveScopeControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.UI.ILiveScopeControl.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.UI.ILiveScopeControl",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.UI.ILiveScopeControl.yml\" sourcestartlinenumber=\"1\">LiveScope control interface</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.UI.ILiveScopeModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.UI.ILiveScopeModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.UI.ILiveScopeModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.UI.ISTLControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.UI.ISTLControl.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.UI.ISTLControl",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.UI.ISTLControl.yml\" sourcestartlinenumber=\"1\">STL control interface</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.UI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.UI",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.XAML.AudioSeries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.XAML.AudioSeries.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.XAML.AudioSeries",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.XAML.AudioSeries.yml\" sourcestartlinenumber=\"1\">Audio series object for binding as XAML content</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.XAML.CsvSeries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.XAML.CsvSeries.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.XAML.CsvSeries",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.XAML.CsvSeries.yml\" sourcestartlinenumber=\"1\">Csv file series object for binding as XAML content</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.XAML.GenerativeSeries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.XAML.GenerativeSeries.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.XAML.GenerativeSeries",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.XAML.GenerativeSeries.yml\" sourcestartlinenumber=\"1\">Generative series object for binding as XAML content</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.XAML.ISeries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.XAML.ISeries.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.XAML.ISeries",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.XAML.ISeries.yml\" sourcestartlinenumber=\"1\">User-defined series</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.XAML.IStaticSeries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.XAML.IStaticSeries.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.XAML.IStaticSeries",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.XAML.IStaticSeries.yml\" sourcestartlinenumber=\"1\">Represents a static series</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.XAML.SeriesCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.XAML.SeriesCollection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.XAML.SeriesCollection",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.XAML.SeriesCollection.yml\" sourcestartlinenumber=\"1\">Collection of series elements for easy XAML binding</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.XAML.StaticSeries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.XAML.StaticSeries.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.XAML.StaticSeries",
+      "Summary": "<p sourcefile=\"api/LiveScope.Net.XAML.StaticSeries.yml\" sourcestartlinenumber=\"1\">Static series object for binding as XAML content</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.XAML.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.XAML.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net.XAML",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Net.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Net.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Net",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.STL.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.STL.Extensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.STL.Extensions",
+      "Summary": "<p sourcefile=\"api/LiveScope.STL.Extensions.yml\" sourcestartlinenumber=\"1\">General STL extendsions for working with facets and vertices.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.STL.Facet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.STL.Facet.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.STL.Facet",
+      "Summary": "<p sourcefile=\"api/LiveScope.STL.Facet.yml\" sourcestartlinenumber=\"1\">A representation of a facet which is defined by its location (<xref href=\"LiveScope.STL.Facet.Vertices\" data-throw-if-not-resolved=\"false\"></xref>) and directionality (<xref href=\"LiveScope.STL.Facet.Normal\" data-throw-if-not-resolved=\"false\"></xref>).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.STL.Normal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.STL.Normal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.STL.Normal",
+      "Summary": "<p sourcefile=\"api/LiveScope.STL.Normal.yml\" sourcestartlinenumber=\"1\">A simple XYZ representation of a normal (<xref href=\"LiveScope.STL.Vertex\" data-throw-if-not-resolved=\"false\"></xref>).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.STL.STLDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.STL.STLDocument.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.STL.STLDocument",
+      "Summary": "<p sourcefile=\"api/LiveScope.STL.STLDocument.yml\" sourcestartlinenumber=\"1\">The outer-most STL object which contains the <xref href=\"LiveScope.STL.STLDocument.Facets\" data-throw-if-not-resolved=\"false\"></xref> that make up the model.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.STL.Vertex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.STL.Vertex.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.STL.Vertex",
+      "Summary": "<p sourcefile=\"api/LiveScope.STL.Vertex.yml\" sourcestartlinenumber=\"1\">A simple XYZ representation of a vertex.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.STL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.STL.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.STL",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspAttributeRoutingAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspAttributeRoutingAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspAttributeRoutingAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.AspAttributeRoutingAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the marked attribute is used for attribute routing in ASP.NET</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspChildControlTypeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspChildControlTypeAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspChildControlTypeAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspDataFieldAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspDataFieldAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspDataFieldAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspDataFieldsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspDataFieldsAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspDataFieldsAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspDefaultRouteValuesAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspDefaultRouteValuesAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspDefaultRouteValuesAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.AspDefaultRouteValuesAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the marked method parameter contains default route values of routing convention for ASP.NET</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspMethodPropertyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspMethodPropertyAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspMethodPropertyAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspMinimalApiDeclarationAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspMinimalApiDeclarationAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspMinimalApiDeclarationAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.AspMinimalApiDeclarationAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the marked method declares ASP.NET Minimal API endpoint</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspMinimalApiHandlerAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspMinimalApiHandlerAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspMinimalApiHandlerAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.AspMinimalApiHandlerAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the marked parameter contains ASP.NET Minimal API endpoint handler</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspMvcActionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspMvcActionAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspMvcActionAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.AspMvcActionAttribute.yml\" sourcestartlinenumber=\"1\">ASP.NET MVC attribute. If applied to a parameter, indicates that the parameter\nis an MVC action. If applied to a method, the MVC action name is calculated\nimplicitly from the context. Use this attribute for custom wrappers similar to\n<code>System.Web.Mvc.Html.ChildActionExtensions.RenderAction(HtmlHelper, String)</code>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspMvcActionSelectorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspMvcActionSelectorAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspMvcActionSelectorAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.AspMvcActionSelectorAttribute.yml\" sourcestartlinenumber=\"1\">ASP.NET MVC attribute. When applied to a parameter of an attribute,\nindicates that this parameter is an MVC action name.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspMvcAreaAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspMvcAreaAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspMvcAreaAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.AspMvcAreaAttribute.yml\" sourcestartlinenumber=\"1\">ASP.NET MVC attribute. Indicates that the marked parameter is an MVC area.\nUse this attribute for custom wrappers similar to\n<code>System.Web.Mvc.Html.ChildActionExtensions.RenderAction(HtmlHelper, String)</code>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspMvcAreaMasterLocationFormatAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspMvcAreaMasterLocationFormatAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspMvcAreaMasterLocationFormatAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspMvcAreaPartialViewLocationFormatAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspMvcAreaPartialViewLocationFormatAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspMvcAreaPartialViewLocationFormatAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspMvcAreaViewLocationFormatAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspMvcAreaViewLocationFormatAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspMvcAreaViewLocationFormatAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspMvcControllerAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspMvcControllerAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspMvcControllerAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.AspMvcControllerAttribute.yml\" sourcestartlinenumber=\"1\">ASP.NET MVC attribute. If applied to a parameter, indicates that the parameter is\nan MVC controller. If applied to a method, the MVC controller name is calculated\nimplicitly from the context. Use this attribute for custom wrappers similar to\n<code>System.Web.Mvc.Html.ChildActionExtensions.RenderAction(HtmlHelper, String, String)</code>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspMvcDisplayTemplateAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspMvcDisplayTemplateAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspMvcDisplayTemplateAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.AspMvcDisplayTemplateAttribute.yml\" sourcestartlinenumber=\"1\">ASP.NET MVC attribute. Indicates that a parameter is an MVC display template.\nUse this attribute for custom wrappers similar to\n<code>System.Web.Mvc.Html.DisplayExtensions.DisplayForModel(HtmlHelper, String)</code>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspMvcEditorTemplateAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspMvcEditorTemplateAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspMvcEditorTemplateAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.AspMvcEditorTemplateAttribute.yml\" sourcestartlinenumber=\"1\">ASP.NET MVC attribute. Indicates that the marked parameter is an MVC editor template.\nUse this attribute for custom wrappers similar to\n<code>System.Web.Mvc.Html.EditorExtensions.EditorForModel(HtmlHelper, String)</code>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspMvcMasterAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspMvcMasterAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspMvcMasterAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.AspMvcMasterAttribute.yml\" sourcestartlinenumber=\"1\">ASP.NET MVC attribute. Indicates that the marked parameter is an MVC Master. Use this attribute\nfor custom wrappers similar to <code>System.Web.Mvc.Controller.View(String, String)</code>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspMvcMasterLocationFormatAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspMvcMasterLocationFormatAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspMvcMasterLocationFormatAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspMvcModelTypeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspMvcModelTypeAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspMvcModelTypeAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.AspMvcModelTypeAttribute.yml\" sourcestartlinenumber=\"1\">ASP.NET MVC attribute. Indicates that the marked parameter is an MVC model type. Use this attribute\nfor custom wrappers similar to <code>System.Web.Mvc.Controller.View(String, Object)</code>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspMvcPartialViewAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspMvcPartialViewAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspMvcPartialViewAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.AspMvcPartialViewAttribute.yml\" sourcestartlinenumber=\"1\">ASP.NET MVC attribute. If applied to a parameter, indicates that the parameter is an MVC\npartial view. If applied to a method, the MVC partial view name is calculated implicitly\nfrom the context. Use this attribute for custom wrappers similar to\n<code>System.Web.Mvc.Html.RenderPartialExtensions.RenderPartial(HtmlHelper, String)</code>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspMvcPartialViewLocationFormatAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspMvcPartialViewLocationFormatAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspMvcPartialViewLocationFormatAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspMvcSuppressViewErrorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspMvcSuppressViewErrorAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspMvcSuppressViewErrorAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.AspMvcSuppressViewErrorAttribute.yml\" sourcestartlinenumber=\"1\">ASP.NET MVC attribute. Allows disabling inspections for MVC views within a class or a method.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspMvcTemplateAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspMvcTemplateAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspMvcTemplateAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.AspMvcTemplateAttribute.yml\" sourcestartlinenumber=\"1\">ASP.NET MVC attribute. Indicates that the marked parameter is an MVC template.\nUse this attribute for custom wrappers similar to\n<code>System.ComponentModel.DataAnnotations.UIHintAttribute(System.String)</code>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspMvcViewAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspMvcViewAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspMvcViewAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.AspMvcViewAttribute.yml\" sourcestartlinenumber=\"1\">ASP.NET MVC attribute. If applied to a parameter, indicates that the parameter\nis an MVC view component. If applied to a method, the MVC view name is calculated implicitly\nfrom the context. Use this attribute for custom wrappers similar to\n<code>System.Web.Mvc.Controller.View(Object)</code>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspMvcViewComponentAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspMvcViewComponentAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspMvcViewComponentAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.AspMvcViewComponentAttribute.yml\" sourcestartlinenumber=\"1\">ASP.NET MVC attribute. If applied to a parameter, indicates that the parameter\nis an MVC view component name.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspMvcViewComponentViewAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspMvcViewComponentViewAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspMvcViewComponentViewAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.AspMvcViewComponentViewAttribute.yml\" sourcestartlinenumber=\"1\">ASP.NET MVC attribute. If applied to a parameter, indicates that the parameter\nis an MVC view component view. If applied to a method, the MVC view component view name is default.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspMvcViewLocationFormatAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspMvcViewLocationFormatAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspMvcViewLocationFormatAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspRequiredAttributeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspRequiredAttributeAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspRequiredAttributeAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspRouteConventionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspRouteConventionAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspRouteConventionAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.AspRouteConventionAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the marked method declares routing convention for ASP.NET</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspRouteOrderAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspRouteOrderAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspRouteOrderAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.AspRouteOrderAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the marked parameter or property contains routing order provided by ASP.NET routing attribute</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspRouteValuesConstraintsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspRouteValuesConstraintsAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspRouteValuesConstraintsAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.AspRouteValuesConstraintsAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the marked method parameter contains constraints on route values of routing convention for ASP.NET</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspRouteVerbsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspRouteVerbsAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspRouteVerbsAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.AspRouteVerbsAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the marked parameter or property contains HTTP verbs provided by ASP.NET routing attribute</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AspTypePropertyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AspTypePropertyAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AspTypePropertyAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AssertionConditionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AssertionConditionAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AssertionConditionAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.AssertionConditionAttribute.yml\" sourcestartlinenumber=\"1\">Indicates the condition parameter of the assertion method. The method itself should be\nmarked by <xref href=\"LiveScope.WPF.Annotations.AssertionMethodAttribute\" data-throw-if-not-resolved=\"false\"></xref> attribute. The mandatory argument of\nthe attribute is the assertion type.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AssertionConditionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AssertionConditionType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AssertionConditionType",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.AssertionConditionType.yml\" sourcestartlinenumber=\"1\">Specifies assertion type. If the assertion method argument satisfies the condition,\nthen the execution continues. Otherwise, execution is assumed to be halted.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.AssertionMethodAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.AssertionMethodAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.AssertionMethodAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.AssertionMethodAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the marked method is assertion method, i.e. it halts the control flow if\none of the conditions is satisfied. To set the condition, mark one of the parameters with\n<xref href=\"LiveScope.WPF.Annotations.AssertionConditionAttribute\" data-throw-if-not-resolved=\"false\"></xref> attribute.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.BaseTypeRequiredAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.BaseTypeRequiredAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.BaseTypeRequiredAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.BaseTypeRequiredAttribute.yml\" sourcestartlinenumber=\"1\">When applied to a target attribute, specifies a requirement for any type marked\nwith the target attribute to implement or inherit specific type or types.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.CanBeNullAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.CanBeNullAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.CanBeNullAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.CanBeNullAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the value of the marked element could be <code>null</code> sometimes,\nso checking for <code>null</code> is required before its usage.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.CannotApplyEqualityOperatorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.CannotApplyEqualityOperatorAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.CannotApplyEqualityOperatorAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.CannotApplyEqualityOperatorAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the value of the marked type (or its derivatives)\ncannot be compared using '==' or '!=' operators and <code>Equals()</code>\nshould be used instead. However, using '==' or '!=' for comparison\nwith <code>null</code> is always permitted.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.CodeTemplateAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.CodeTemplateAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.CodeTemplateAttribute",
+      "Summary": "<p>\nDefines the code search template using the Structural Search and Replace syntax.\nIt allows you to find and, if necessary, replace blocks of code that match a specific pattern.\nSearch and replace patterns consist of a textual part and placeholders.\nTextural part must contain only identifiers allowed in the target language and will be matched exactly (white spaces, tabulation characters, and line breaks are ignored).\nPlaceholders allow matching variable parts of the target code blocks.\nA placeholder has the following format: $placeholder_name$- where placeholder_name is an arbitrary identifier.\n</p>\n<p>\nAvailable placeholders:\n<ul><li>$this$ - expression of containing type</li><li>$thisType$ - containing type</li><li>$member$ - current member placeholder</li><li>$qualifier$ - this placeholder is available in the replace pattern and can be used to insert qualifier expression matched by the $member$ placeholder.\n(Note that if $qualifier$ placeholder is used, then $member$ placeholder will match only qualified references)</li><li>$expression$ - expression of any type</li><li>$identifier$ - identifier placeholder</li><li>$args$ - any number of arguments</li><li>$arg$ - single argument</li><li>$arg1$ ... $arg10$ - single argument</li><li>$stmts$ - any number of statements</li><li>$stmt$ - single statement</li><li>$stmt1$ ... $stmt10$ - single statement</li><li>$name{Expression, 'Namespace.FooType'}$ - expression with 'Namespace.FooType' type</li><li>$expression{'Namespace.FooType'}$ - expression with 'Namespace.FooType' type</li><li>$name{Type, 'Namespace.FooType'}$ - 'Namespace.FooType' type</li><li>$type{'Namespace.FooType'}$ - 'Namespace.FooType' type</li><li>$statement{1,2}$ - 1 or 2 statements</li></ul>\n\n<p>\nNote that you can also define your own placeholders of the supported types and specify arguments for each placeholder type.\nThis can be done using the following format: $name{type, arguments}$. Where 'name' - is the name of your placeholder,\n'type' - is the type of your placeholder (one of the following: Expression, Type, Identifier, Statement, Argument, Member),\n'arguments' - arguments list for your placeholder. Each placeholder type supports it's own arguments, check examples below for mode details.\nPlaceholder type may be omitted and determined from the placeholder name, if name has one of the following prefixes:\n<ul><li>expr, expression - expression placeholder, e.g. $exprPlaceholder{}$, $expressionFoo{}$</li><li>arg, argument - argument placeholder, e.g. $argPlaceholder{}$, $argumentFoo{}$</li><li>ident, identifier - identifier placeholder, e.g. $identPlaceholder{}$, $identifierFoo{}$</li><li>stmt, statement - statement placeholder, e.g. $stmtPlaceholder{}$, $statementFoo{}$</li><li>type - type placeholder, e.g. $typePlaceholder{}$, $typeFoo{}$</li><li>member - member placeholder, e.g. $memberPlaceholder{}$, $memberFoo{}$</li></ul>\n\n<p>\nExpression placeholder arguments:\n<ul><li>expressionType - string value in single quotes, specifies full type name to match (empty string by default)</li><li>exactType - boolean value, specifies if expression should have exact type match (false by default)</li></ul>\nExamples:\n<ul><li>$myExpr{Expression, 'Namespace.FooType', true}$ - defines expression placeholder, matching expressions of the 'Namespace.FooType' type with exact matching.</li><li>$myExpr{Expression, 'Namespace.FooType'}$ - defines expression placeholder, matching expressions of the 'Namespace.FooType' type or expressions which can be implicitly converted to 'Namespace.FooType'.</li><li>$myExpr{Expression}$ - defines expression placeholder, matching expressions of any type.</li><li>$exprFoo{'Namespace.FooType', true}$ - defines expression placeholder, matching expressions of the 'Namespace.FooType' type with exact matching.</li></ul>\n\n<p>\nType placeholder arguments:\n<ul><li>type - string value in single quotes, specifies full type name to match (empty string by default)</li><li>exactType - boolean value, specifies if expression should have exact type match (false by default)</li></ul>\nExamples:\n<ul><li>$myType{Type, 'Namespace.FooType', true}$ - defines type placeholder, matching 'Namespace.FooType' types with exact matching.</li><li>$myType{Type, 'Namespace.FooType'}$ - defines type placeholder, matching 'Namespace.FooType' types or types, which can be implicitly converted to 'Namespace.FooType'.</li><li>$myType{Type}$ - defines type placeholder, matching any type.</li><li>$typeFoo{'Namespace.FooType', true}$ - defines types placeholder, matching 'Namespace.FooType' types with exact matching.</li></ul>\n\n<p>\nIdentifier placeholder arguments:\n<ul><li>nameRegex - string value in single quotes, specifies regex to use for matching (empty string by default)</li><li>nameRegexCaseSensitive - boolean value, specifies if name regex is case sensitive (true by default)</li><li>type - string value in single quotes, specifies full type name to match (empty string by default)</li><li>exactType - boolean value, specifies if expression should have exact type match (false by default)</li></ul>\nExamples:\n<ul><li>$myIdentifier{Identifier, 'my.*', false, 'Namespace.FooType', true}$ - defines identifier placeholder, matching identifiers (ignoring case) starting with 'my' prefix with 'Namespace.FooType' type.</li><li>$myIdentifier{Identifier, 'my.*', true, 'Namespace.FooType', true}$ - defines identifier placeholder, matching identifiers (case sensitively) starting with 'my' prefix with 'Namespace.FooType' type.</li><li>$identFoo{'my.*'}$ - defines identifier placeholder, matching identifiers (case sensitively) starting with 'my' prefix.</li></ul>\n\n<p>\nStatement placeholder arguments:\n<ul><li>minimalOccurrences - minimal number of statements to match (-1 by default)</li><li>maximalOccurrences - maximal number of statements to match (-1 by default)</li></ul>\nExamples:\n<ul><li>$myStmt{Statement, 1, 2}$ - defines statement placeholder, matching 1 or 2 statements.</li><li>$myStmt{Statement}$ - defines statement placeholder, matching any number of statements.</li><li>$stmtFoo{1, 2}$ - defines statement placeholder, matching 1 or 2 statements.</li></ul>\n\n<p>\nArgument placeholder arguments:\n<ul><li>minimalOccurrences - minimal number of arguments to match (-1 by default)</li><li>maximalOccurrences - maximal number of arguments to match (-1 by default)</li></ul>\nExamples:\n<ul><li>$myArg{Argument, 1, 2}$ - defines argument placeholder, matching 1 or 2 arguments.</li><li>$myArg{Argument}$ - defines argument placeholder, matching any number of arguments.</li><li>$argFoo{1, 2}$ - defines argument placeholder, matching 1 or 2 arguments.</li></ul>\n\n<p>\nMember placeholder arguments:\n<ul><li>docId - string value in single quotes, specifies XML documentation id of the member to match (empty by default)</li></ul>\nExamples:\n<ul><li>$myMember{Member, 'M:System.String.IsNullOrEmpty(System.String)'}$ - defines member placeholder, matching 'IsNullOrEmpty' member of the 'System.String' type.</li><li>$memberFoo{'M:System.String.IsNullOrEmpty(System.String)'}$ - defines member placeholder, matching 'IsNullOrEmpty' member of the 'System.String' type.</li></ul>\n\n<p>\nFor more information please refer to the <a href=\"https://www.jetbrains.com/help/resharper/Navigation_and_Search__Structural_Search_and_Replace.html\">Structural Search and Replace</a> article.\n</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.CollectionAccessAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.CollectionAccessAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.CollectionAccessAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.CollectionAccessAttribute.yml\" sourcestartlinenumber=\"1\">Indicates how method, constructor invocation, or property access\nover collection type affects the contents of the collection.\nWhen applied to a return value of a method indicates if the returned collection\nis created exclusively for the caller (CollectionAccessType.UpdatedContent) or\ncan be read/updated from outside (CollectionAccessType.Read | CollectionAccessType.UpdatedContent)\nUse <xref href=\"LiveScope.WPF.Annotations.CollectionAccessAttribute.CollectionAccessType\" data-throw-if-not-resolved=\"false\"></xref> to specify the access type.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.CollectionAccessType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.CollectionAccessType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.CollectionAccessType",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.CollectionAccessType.yml\" sourcestartlinenumber=\"1\">Provides a value for the <xref href=\"LiveScope.WPF.Annotations.CollectionAccessAttribute\" data-throw-if-not-resolved=\"false\"></xref> to define\nhow the collection method invocation affects the contents of the collection.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.ContractAnnotationAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.ContractAnnotationAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.ContractAnnotationAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.ContractAnnotationAttribute.yml\" sourcestartlinenumber=\"1\">Describes dependency between method input and output.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.HtmlAttributeValueAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.HtmlAttributeValueAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.HtmlAttributeValueAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.HtmlElementAttributesAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.HtmlElementAttributesAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.HtmlElementAttributesAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.ImplicitUseKindFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.ImplicitUseKindFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.ImplicitUseKindFlags",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.ImplicitUseKindFlags.yml\" sourcestartlinenumber=\"1\">Specifies the details of implicitly used symbol when it is marked\nwith <xref href=\"LiveScope.WPF.Annotations.MeansImplicitUseAttribute\" data-throw-if-not-resolved=\"false\"></xref> or <xref href=\"LiveScope.WPF.Annotations.UsedImplicitlyAttribute\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.ImplicitUseTargetFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.ImplicitUseTargetFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.ImplicitUseTargetFlags",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.ImplicitUseTargetFlags.yml\" sourcestartlinenumber=\"1\">Specifies what is considered to be used implicitly when marked\nwith <xref href=\"LiveScope.WPF.Annotations.MeansImplicitUseAttribute\" data-throw-if-not-resolved=\"false\"></xref> or <xref href=\"LiveScope.WPF.Annotations.UsedImplicitlyAttribute\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.InjectedLanguage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.InjectedLanguage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.InjectedLanguage",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.InjectedLanguage.yml\" sourcestartlinenumber=\"1\">Language of injected code fragment inside marked by <xref href=\"LiveScope.WPF.Annotations.LanguageInjectionAttribute\" data-throw-if-not-resolved=\"false\"></xref> string literal.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.InstantHandleAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.InstantHandleAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.InstantHandleAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.InstantHandleAttribute.yml\" sourcestartlinenumber=\"1\">Tells the code analysis engine if the parameter is completely handled when the invoked method is on stack.\nIf the parameter is a delegate, indicates that delegate can only be invoked during method execution\n(the delegate can be invoked zero or multiple times, but not stored to some field and invoked later,\nwhen the containing method is no longer on the execution stack).\nIf the parameter is an enumerable, indicates that it is enumerated while the method is executed.\nIf <xref href=\"LiveScope.WPF.Annotations.InstantHandleAttribute.RequireAwait\" data-throw-if-not-resolved=\"false\"></xref> is true, the attribute will only takes effect if the method invocation is located under the 'await' expression.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.InvokerParameterNameAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.InvokerParameterNameAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.InvokerParameterNameAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.InvokerParameterNameAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the function argument should be a string literal and match\none of the parameters of the caller function. This annotation is used for paramerers\nlike 'string paramName' parameter of the <xref href=\"System.ArgumentNullException\" data-throw-if-not-resolved=\"false\"></xref> constuctor.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.ItemCanBeNullAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.ItemCanBeNullAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.ItemCanBeNullAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.ItemCanBeNullAttribute.yml\" sourcestartlinenumber=\"1\">Can be applied to symbols of types derived from IEnumerable as well as to symbols of Task\nand Lazy classes to indicate that the value of a collection item, of the Task.Result property\nor of the Lazy.Value property can be null.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.ItemNotNullAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.ItemNotNullAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.ItemNotNullAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.ItemNotNullAttribute.yml\" sourcestartlinenumber=\"1\">Can be applied to symbols of types derived from IEnumerable as well as to symbols of Task\nand Lazy classes to indicate that the value of a collection item, of the Task.Result property\nor of the Lazy.Value property can never be null.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.LanguageInjectionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.LanguageInjectionAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.LanguageInjectionAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.LanguageInjectionAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the marked parameter, field, or property is accepting a string literal\ncontaining code fragment in a language specified by the <xref href=\"LiveScope.WPF.Annotations.LanguageInjectionAttribute.InjectedLanguage\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.LinqTunnelAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.LinqTunnelAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.LinqTunnelAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.LinqTunnelAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the method is a pure LINQ method, with postponed enumeration (like Enumerable.Select,\n.Where). This annotation allows inference of [InstantHandle] annotation for parameters\nof delegate type by analyzing LINQ method chains.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.LocalizationRequiredAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.LocalizationRequiredAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.LocalizationRequiredAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.LocalizationRequiredAttribute.yml\" sourcestartlinenumber=\"1\">Indicates whether the marked element should be localized.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.MacroAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.MacroAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.MacroAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.MacroAttribute.yml\" sourcestartlinenumber=\"1\">Allows specifying a macro for a parameter of a <xref href=\"LiveScope.WPF.Annotations.SourceTemplateAttribute?text=source+template\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.MeansImplicitUseAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.MeansImplicitUseAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.MeansImplicitUseAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.MeansImplicitUseAttribute.yml\" sourcestartlinenumber=\"1\">Can be applied to attributes, type parameters, and parameters of a type assignable from <xref href=\"System.Type\" data-throw-if-not-resolved=\"false\"></xref> .\nWhen applied to an attribute, the decorated attribute behaves the same as <xref href=\"LiveScope.WPF.Annotations.UsedImplicitlyAttribute\" data-throw-if-not-resolved=\"false\"></xref>.\nWhen applied to a type parameter or to a parameter of type <xref href=\"System.Type\" data-throw-if-not-resolved=\"false\"></xref>,\nindicates that the corresponding type is used implicitly.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.MustUseReturnValueAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.MustUseReturnValueAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.MustUseReturnValueAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.MustUseReturnValueAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the return value of the method invocation must be used.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.NoEnumerationAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.NoEnumerationAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.NoEnumerationAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.NoEnumerationAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that IEnumerable passed as a parameter is not enumerated.\nUse this annotation to suppress the 'Possible multiple enumeration of IEnumerable' inspection.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.NoReorderAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.NoReorderAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.NoReorderAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.NoReorderAttribute.yml\" sourcestartlinenumber=\"1\">Prevents the Member Reordering feature from tossing members of the marked class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.NonNegativeValueAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.NonNegativeValueAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.NonNegativeValueAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.NonNegativeValueAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the integral value never falls below zero.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.NotNullAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.NotNullAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.NotNullAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.NotNullAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the value of the marked element can never be <code>null</code>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.NotifyPropertyChangedInvocatorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.NotifyPropertyChangedInvocatorAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.NotifyPropertyChangedInvocatorAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.NotifyPropertyChangedInvocatorAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the method is contained in a type that implements\n<code>System.ComponentModel.INotifyPropertyChanged</code> interface and this method\nis used to notify that some property value changed.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.PathReferenceAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.PathReferenceAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.PathReferenceAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.PathReferenceAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that a parameter is a path to a file or a folder within a web project.\nPath can be relative or absolute, starting from web root (~).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.ProvidesContextAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.ProvidesContextAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.ProvidesContextAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.ProvidesContextAttribute.yml\" sourcestartlinenumber=\"1\">Indicates the type member or parameter of some type, that should be used instead of all other ways\nto get the value of that type. This annotation is useful when you have some &quot;context&quot; value evaluated\nand stored somewhere, meaning that all other ways to get this value must be consolidated with existing one.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.PublicAPIAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.PublicAPIAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.PublicAPIAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.PublicAPIAttribute.yml\" sourcestartlinenumber=\"1\">This attribute is intended to mark publicly available API,\nwhich should not be removed and so is treated as used.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.PureAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.PureAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.PureAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.PureAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that a method does not make any observable state changes.\nThe same as <code>System.Diagnostics.Contracts.PureAttribute</code>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.RazorDirectiveAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.RazorDirectiveAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.RazorDirectiveAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.RazorHelperCommonAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.RazorHelperCommonAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.RazorHelperCommonAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.RazorImportNamespaceAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.RazorImportNamespaceAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.RazorImportNamespaceAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.RazorInjectionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.RazorInjectionAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.RazorInjectionAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.RazorLayoutAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.RazorLayoutAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.RazorLayoutAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.RazorPageBaseTypeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.RazorPageBaseTypeAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.RazorPageBaseTypeAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.RazorSectionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.RazorSectionAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.RazorSectionAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.RazorSectionAttribute.yml\" sourcestartlinenumber=\"1\">Razor attribute. Indicates that the marked parameter or method is a Razor section.\nUse this attribute for custom wrappers similar to\n<code>System.Web.WebPages.WebPageBase.RenderSection(String)</code>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.RazorWriteLiteralMethodAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.RazorWriteLiteralMethodAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.RazorWriteLiteralMethodAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.RazorWriteMethodAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.RazorWriteMethodAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.RazorWriteMethodAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.RazorWriteMethodParameterAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.RazorWriteMethodParameterAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.RazorWriteMethodParameterAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.RegexPatternAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.RegexPatternAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.RegexPatternAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.RegexPatternAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the marked parameter, field, or property is a regular expression pattern.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.RequireStaticDelegateAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.RequireStaticDelegateAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.RequireStaticDelegateAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.RequireStaticDelegateAttribute.yml\" sourcestartlinenumber=\"1\">This annotation allows to enforce allocation-less usage patterns of delegates for performance-critical APIs.\nWhen this annotation is applied to the parameter of delegate type, IDE checks the input argument of this parameter:</p>\n<ul sourcefile=\"api/LiveScope.WPF.Annotations.RequireStaticDelegateAttribute.yml\" sourcestartlinenumber=\"3\">\n<li sourcefile=\"api/LiveScope.WPF.Annotations.RequireStaticDelegateAttribute.yml\" sourcestartlinenumber=\"3\">When lambda expression or anonymous method is passed as an argument, IDE verifies that the passed closure\nhas no captures of the containing local variables and the compiler is able to cache the delegate instance\nto avoid heap allocations. Otherwise the warning is produced.</li>\n<li sourcefile=\"api/LiveScope.WPF.Annotations.RequireStaticDelegateAttribute.yml\" sourcestartlinenumber=\"6\">IDE warns when method name or local function name is passed as an argument as this always results\nin heap allocation of the delegate instance.</li>\n</ul>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.RouteParameterConstraintAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.RouteParameterConstraintAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.RouteParameterConstraintAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.RouteParameterConstraintAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the marked type is custom route parameter constraint,\nwhich is registered in application's Startup with name <code>ConstraintName</code></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.RouteTemplateAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.RouteTemplateAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.RouteTemplateAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.RouteTemplateAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the marked parameter, field, or property is a route template.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.SourceTemplateAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.SourceTemplateAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.SourceTemplateAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.SourceTemplateAttribute.yml\" sourcestartlinenumber=\"1\">An extension method marked with this attribute is processed by code completion\nas a 'Source Template'. When the extension method is completed over some expression, its source code\nis automatically expanded like a template at call site.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.StringFormatMethodAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.StringFormatMethodAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.StringFormatMethodAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.StringFormatMethodAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the marked method builds string by the format pattern and (optional) arguments.\nThe parameter, which contains the format string, should be given in the constructor. The format string\nshould be in <xref href=\"System.String.Format(System.IFormatProvider%2cSystem.String%2cSystem.Object%5b%5d)\" data-throw-if-not-resolved=\"false\"></xref>-like form.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.StructuredMessageTemplateAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.StructuredMessageTemplateAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.StructuredMessageTemplateAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.StructuredMessageTemplateAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the marked parameter is a message template where placeholders are to be replaced by the following arguments\nin the order in which they appear</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.TerminatesProgramAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.TerminatesProgramAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.TerminatesProgramAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.TerminatesProgramAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the marked method unconditionally terminates control flow execution.\nFor example, it could unconditionally throw exception.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.UriStringAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.UriStringAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.UriStringAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.UriStringAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the marked parameter, field, or property is an URI string.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.UsedImplicitlyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.UsedImplicitlyAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.UsedImplicitlyAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.UsedImplicitlyAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the marked symbol is used implicitly (e.g. via reflection, in external library),\nso this symbol will be ignored by usage-checking inspections. <br>\nYou can use <xref href=\"LiveScope.WPF.Annotations.ImplicitUseKindFlags\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"LiveScope.WPF.Annotations.ImplicitUseTargetFlags\" data-throw-if-not-resolved=\"false\"></xref>\nto configure how this attribute is applied.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.ValueProviderAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.ValueProviderAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.ValueProviderAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.ValueProviderAttribute.yml\" sourcestartlinenumber=\"1\">Use this annotation to specify a type that contains static or const fields\nwith values for the annotated property/field/parameter.\nThe specified type will be used to improve completion suggestions.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.ValueRangeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.ValueRangeAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.ValueRangeAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.ValueRangeAttribute.yml\" sourcestartlinenumber=\"1\">Indicates that the integral value falls into the specified interval.\nIt's allowed to specify multiple non-intersecting intervals.\nValues of interval boundaries are inclusive.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.XamlItemBindingOfItemsControlAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.XamlItemBindingOfItemsControlAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.XamlItemBindingOfItemsControlAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.XamlItemBindingOfItemsControlAttribute.yml\" sourcestartlinenumber=\"1\">XAML attribute. Indicates the property of some <code>BindingBase</code>-derived type, that\nis used to bind some item of <code>ItemsControl</code>-derived type. This annotation will\nenable the <code>DataContext</code> type resolve for XAML bindings for such properties.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.XamlItemStyleOfItemsControlAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.XamlItemStyleOfItemsControlAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.XamlItemStyleOfItemsControlAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.XamlItemStyleOfItemsControlAttribute.yml\" sourcestartlinenumber=\"1\">XAML attribute. Indicates the property of some <code>Style</code>-derived type, that\nis used to style items of <code>ItemsControl</code>-derived type. This annotation will\nenable the <code>DataContext</code> type resolve for XAML bindings for such properties.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.XamlItemsControlAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.XamlItemsControlAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.XamlItemsControlAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.XamlItemsControlAttribute.yml\" sourcestartlinenumber=\"1\">XAML attribute. Indicates the type that has <code>ItemsSource</code> property and should be treated\nas <code>ItemsControl</code>-derived type, to enable inner items <code>DataContext</code> type resolve.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.XamlOneWayBindingModeByDefaultAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.XamlOneWayBindingModeByDefaultAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.XamlOneWayBindingModeByDefaultAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.XamlOneWayBindingModeByDefaultAttribute.yml\" sourcestartlinenumber=\"1\">XAML attribute. Indicates that DependencyProperty has <code>OneWay</code> binding mode by default.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.XamlTwoWayBindingModeByDefaultAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.XamlTwoWayBindingModeByDefaultAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations.XamlTwoWayBindingModeByDefaultAttribute",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.Annotations.XamlTwoWayBindingModeByDefaultAttribute.yml\" sourcestartlinenumber=\"1\">XAML attribute. Indicates that DependencyProperty has <code>TwoWay</code> binding mode by default.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.Annotations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.Annotations.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.Annotations",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.LiveScopeControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.LiveScopeControl.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.LiveScopeControl",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.LiveScopeControl.yml\" sourcestartlinenumber=\"1\">LiveScope control for WPF</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.STLControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.STLControl.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF.STLControl",
+      "Summary": "<p sourcefile=\"api/LiveScope.WPF.STLControl.yml\" sourcestartlinenumber=\"1\">Interaction logic for STLControl.xaml</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.WPF.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.WPF.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.WPF",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Windows.Pico2000DataCapture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Windows.Pico2000DataCapture.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Windows.Pico2000DataCapture",
+      "Summary": "<p sourcefile=\"api/LiveScope.Windows.Pico2000DataCapture.yml\" sourcestartlinenumber=\"1\">Capture data from a Picotech 2000-series device</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Windows.WindowsAudioDataCapture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Windows.WindowsAudioDataCapture.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Windows.WindowsAudioDataCapture",
+      "Summary": "<p sourcefile=\"api/LiveScope.Windows.WindowsAudioDataCapture.yml\" sourcestartlinenumber=\"1\">Audio data capture for Windows platforms</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/LiveScope.Windows.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/LiveScope.Windows.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "LiveScope.Windows",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

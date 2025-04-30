@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface ILiveScopeControl | LiveScope </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface ILiveScopeControl | LiveScope ">
+      
+      <meta name="description" content="LiveScope control interface">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="LiveScope">
+            LiveScope
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="LiveScope.Net.UI.ILiveScopeControl">
+
+
+
+  <h1 id="LiveScope_Net_UI_ILiveScopeControl" data-uid="LiveScope.Net.UI.ILiveScopeControl" class="text-break">
+Interface ILiveScopeControl  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/UI/ILiveScopeControl.cs"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="LiveScope.html">LiveScope</a>.<a class="xref" href="LiveScope.Net.html">Net</a>.<a class="xref" href="LiveScope.Net.UI.html">UI</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>LiveScope.Net.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>LiveScope control interface</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obfuscation(Exclude = true, ApplyToMembers = true)]
+public interface ILiveScopeControl : ILiveScopeModel</code></pre>
+  </div>
+
+
+
+
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="LiveScope.Net.UI.ILiveScopeModel.html#LiveScope_Net_UI_ILiveScopeModel_GetSeriesData_System_Nullable_System_UInt32__">ILiveScopeModel.GetSeriesData(uint?)</a>
+    </div>
+    <div>
+      <a class="xref" href="LiveScope.Net.UI.ILiveScopeModel.html#LiveScope_Net_UI_ILiveScopeModel_SaveSeriesDataAs_System_String_System_Nullable_System_UInt32__">ILiveScopeModel.SaveSeriesDataAs(string, uint?)</a>
+    </div>
+    <div>
+      <a class="xref" href="LiveScope.Net.UI.ILiveScopeModel.html#LiveScope_Net_UI_ILiveScopeModel_ActiveSeriesId">ILiveScopeModel.ActiveSeriesId</a>
+    </div>
+    <div>
+      <a class="xref" href="LiveScope.Net.UI.ILiveScopeModel.html#LiveScope_Net_UI_ILiveScopeModel_EnableCursorLock">ILiveScopeModel.EnableCursorLock</a>
+    </div>
+    <div>
+      <a class="xref" href="LiveScope.Net.UI.ILiveScopeModel.html#LiveScope_Net_UI_ILiveScopeModel_Colors">ILiveScopeModel.Colors</a>
+    </div>
+    <div>
+      <a class="xref" href="LiveScope.Net.UI.ILiveScopeModel.html#LiveScope_Net_UI_ILiveScopeModel_SeriesLayout">ILiveScopeModel.SeriesLayout</a>
+    </div>
+    <div>
+      <a class="xref" href="LiveScope.Net.UI.ILiveScopeModel.html#LiveScope_Net_UI_ILiveScopeModel_XMin">ILiveScopeModel.XMin</a>
+    </div>
+    <div>
+      <a class="xref" href="LiveScope.Net.UI.ILiveScopeModel.html#LiveScope_Net_UI_ILiveScopeModel_XMax">ILiveScopeModel.XMax</a>
+    </div>
+    <div>
+      <a class="xref" href="LiveScope.Net.UI.ILiveScopeModel.html#LiveScope_Net_UI_ILiveScopeModel_YMin">ILiveScopeModel.YMin</a>
+    </div>
+    <div>
+      <a class="xref" href="LiveScope.Net.UI.ILiveScopeModel.html#LiveScope_Net_UI_ILiveScopeModel_YMax">ILiveScopeModel.YMax</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="LiveScope_Net_UI_ILiveScopeControl_ActiveSeriesIndex_" data-uid="LiveScope.Net.UI.ILiveScopeControl.ActiveSeriesIndex*"></a>
+
+  <h3 id="LiveScope_Net_UI_ILiveScopeControl_ActiveSeriesIndex" data-uid="LiveScope.Net.UI.ILiveScopeControl.ActiveSeriesIndex">
+  ActiveSeriesIndex
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/UI/ILiveScopeControl.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Index of active series within current series collection</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int ActiveSeriesIndex { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveScope_Net_UI_ILiveScopeControl_CursorValue_" data-uid="LiveScope.Net.UI.ILiveScopeControl.CursorValue*"></a>
+
+  <h3 id="LiveScope_Net_UI_ILiveScopeControl_CursorValue" data-uid="LiveScope.Net.UI.ILiveScopeControl.CursorValue">
+  CursorValue
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/UI/ILiveScopeControl.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Value closest to the cursor for the currently active series</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double CursorValue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveScope_Net_UI_ILiveScopeControl_Item_" data-uid="LiveScope.Net.UI.ILiveScopeControl.Item*"></a>
+
+  <h3 id="LiveScope_Net_UI_ILiveScopeControl_Item_System_UInt32_" data-uid="LiveScope.Net.UI.ILiveScopeControl.Item(System.UInt32)">
+  this[uint]
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/UI/ILiveScopeControl.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieve the series associated with the specified index</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Series this[uint index] { get; }</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a></dt>
+    <dd><p>Series index</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveScope.Net.Series.html">Series</a></dt>
+    <dd><p>Series</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveScope_Net_UI_ILiveScopeControl_MaxCursorValue_" data-uid="LiveScope.Net.UI.ILiveScopeControl.MaxCursorValue*"></a>
+
+  <h3 id="LiveScope_Net_UI_ILiveScopeControl_MaxCursorValue" data-uid="LiveScope.Net.UI.ILiveScopeControl.MaxCursorValue">
+  MaxCursorValue
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/UI/ILiveScopeControl.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Maximum value read by the cursor</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double MaxCursorValue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveScope_Net_UI_ILiveScopeControl_Series_" data-uid="LiveScope.Net.UI.ILiveScopeControl.Series*"></a>
+
+  <h3 id="LiveScope_Net_UI_ILiveScopeControl_Series" data-uid="LiveScope.Net.UI.ILiveScopeControl.Series">
+  Series
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/UI/ILiveScopeControl.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Series already added to the chart</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ReadOnlyCollection&lt;Series&gt; Series { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection-1">ReadOnlyCollection</a>&lt;<a class="xref" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/Series/Series.cs">Series</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="LiveScope_Net_UI_ILiveScopeControl_Series_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Use this property to modify properties of existing series</p>
+</div>
+
+
+
+
+  <a id="LiveScope_Net_UI_ILiveScopeControl_SeriesContent_" data-uid="LiveScope.Net.UI.ILiveScopeControl.SeriesContent*"></a>
+
+  <h3 id="LiveScope_Net_UI_ILiveScopeControl_SeriesContent" data-uid="LiveScope.Net.UI.ILiveScopeControl.SeriesContent">
+  SeriesContent
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/UI/ILiveScopeControl.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Internal collection of series displayed on this chart</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Browsable(false)]
+SeriesCollection SeriesContent { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveScope.Net.XAML.SeriesCollection.html">SeriesCollection</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="LiveScope_Net_UI_ILiveScopeControl_SeriesContent_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Used for binding to the Content property of the control</p>
+</div>
+
+
+
+
+  <a id="LiveScope_Net_UI_ILiveScopeControl_TimeLength_" data-uid="LiveScope.Net.UI.ILiveScopeControl.TimeLength*"></a>
+
+  <h3 id="LiveScope_Net_UI_ILiveScopeControl_TimeLength" data-uid="LiveScope.Net.UI.ILiveScopeControl.TimeLength">
+  TimeLength
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/UI/ILiveScopeControl.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Length of time visible on the chart (seconds)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double TimeLength { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveScope_Net_UI_ILiveScopeControl_UpdateData_" data-uid="LiveScope.Net.UI.ILiveScopeControl.UpdateData*"></a>
+
+  <h3 id="LiveScope_Net_UI_ILiveScopeControl_UpdateData" data-uid="LiveScope.Net.UI.ILiveScopeControl.UpdateData">
+  UpdateData
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/UI/ILiveScopeControl.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines how incoming data is added to the buffer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">DataUpdateTypes UpdateData { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveScope.Net.DataUpdateTypes.html">DataUpdateTypes</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="LiveScope_Net_UI_ILiveScopeControl_AddSeries_" data-uid="LiveScope.Net.UI.ILiveScopeControl.AddSeries*"></a>
+
+  <h3 id="LiveScope_Net_UI_ILiveScopeControl_AddSeries_LiveScope_Net_IDataCapture_LiveScope_Net_SeriesColor_System_Nullable_System_Double__" data-uid="LiveScope.Net.UI.ILiveScopeControl.AddSeries(LiveScope.Net.IDataCapture,LiveScope.Net.SeriesColor,System.Nullable{System.Double})">
+  AddSeries(IDataCapture, SeriesColor?, double?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/UI/ILiveScopeControl.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Start a new recording series using the specified capture implementation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Series AddSeries(IDataCapture Capture, SeriesColor? Color = null, double? LineWidth = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>Capture</code> <a class="xref" href="LiveScope.Net.IDataCapture.html">IDataCapture</a></dt>
+    <dd><p>Data capture implementation. Captures data and relays it to the chart.</p>
+</dd>
+    <dt><code>Color</code> <a class="xref" href="LiveScope.Net.SeriesColor.html">SeriesColor</a></dt>
+    <dd><p>Desired series color</p>
+</dd>
+    <dt><code>LineWidth</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd><p>Desired series line width</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveScope.Net.Series.html">Series</a></dt>
+    <dd><p>Series instance attached to a chart</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveScope_Net_UI_ILiveScopeControl_EnableAutoscale_" data-uid="LiveScope.Net.UI.ILiveScopeControl.EnableAutoscale*"></a>
+
+  <h3 id="LiveScope_Net_UI_ILiveScopeControl_EnableAutoscale_System_Nullable_System_UInt32__System_Boolean_" data-uid="LiveScope.Net.UI.ILiveScopeControl.EnableAutoscale(System.Nullable{System.UInt32},System.Boolean)">
+  EnableAutoscale(uint?, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/UI/ILiveScopeControl.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enable autoscale for the specified series</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void EnableAutoscale(uint? index = null, bool value = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>?</dt>
+    <dd><p>Series index - defaults to currently active series</p>
+</dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True to enable autoscale, False to disable autoscale</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveScope_Net_UI_ILiveScopeControl_EnableEvents_" data-uid="LiveScope.Net.UI.ILiveScopeControl.EnableEvents*"></a>
+
+  <h3 id="LiveScope_Net_UI_ILiveScopeControl_EnableEvents_System_Nullable_System_UInt32__System_Boolean_" data-uid="LiveScope.Net.UI.ILiveScopeControl.EnableEvents(System.Nullable{System.UInt32},System.Boolean)">
+  EnableEvents(uint?, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/UI/ILiveScopeControl.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enable digital triggering for the specified series</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void EnableEvents(uint? index = null, bool value = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>?</dt>
+    <dd><p>Series index - defaults to currently active series</p>
+</dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>True to enable triggering, False to disable triggering</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveScope_Net_UI_ILiveScopeControl_PauseSeries_" data-uid="LiveScope.Net.UI.ILiveScopeControl.PauseSeries*"></a>
+
+  <h3 id="LiveScope_Net_UI_ILiveScopeControl_PauseSeries_System_Nullable_System_UInt32__" data-uid="LiveScope.Net.UI.ILiveScopeControl.PauseSeries(System.Nullable{System.UInt32})">
+  PauseSeries(uint?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/UI/ILiveScopeControl.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Pause screen updates for the specified series</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void PauseSeries(uint? index = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>?</dt>
+    <dd><p>Series index - defaults to currently active series</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveScope_Net_UI_ILiveScopeControl_RemoveSeries_" data-uid="LiveScope.Net.UI.ILiveScopeControl.RemoveSeries*"></a>
+
+  <h3 id="LiveScope_Net_UI_ILiveScopeControl_RemoveSeries_System_Nullable_System_UInt32__" data-uid="LiveScope.Net.UI.ILiveScopeControl.RemoveSeries(System.Nullable{System.UInt32})">
+  RemoveSeries(uint?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/UI/ILiveScopeControl.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Remove the series associated with the specified index</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RemoveSeries(uint? index = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>?</dt>
+    <dd><p>Series index - defaults to currently active series</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveScope_Net_UI_ILiveScopeControl_ResumeSeries_" data-uid="LiveScope.Net.UI.ILiveScopeControl.ResumeSeries*"></a>
+
+  <h3 id="LiveScope_Net_UI_ILiveScopeControl_ResumeSeries_System_Nullable_System_UInt32__" data-uid="LiveScope.Net.UI.ILiveScopeControl.ResumeSeries(System.Nullable{System.UInt32})">
+  ResumeSeries(uint?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/UI/ILiveScopeControl.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Resume screen updates for the specified series</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ResumeSeries(uint? index = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint32">uint</a>?</dt>
+    <dd><p>Series index - defaults to currently active series</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/UI/ILiveScopeControl.cs" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

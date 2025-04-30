@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CodeTemplateAttribute | LiveScope </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CodeTemplateAttribute | LiveScope ">
+      
+      <meta name="description" content="Defines the code search template using the Structural Search and Replace syntax. It allows you to find and, if necessary, replace blocks of code that match a specific pattern. Search and replace patterns consist of a textual part and placeholders. Textural part must contain only identifiers allowed in the target language and will be matched exactly (white spaces, tabulation characters, and line breaks are ignored). Placeholders allow matching variable parts of the target code blocks. A placeholder has the following format: $placeholder_name$- where placeholder_name is an arbitrary identifier.   Available placeholders: $this$ - expression of containing type$thisType$ - containing type$member$ - current member placeholder$qualifier$ - this placeholder is available in the replace pattern and can be used to insert qualifier expression matched by the $member$ placeholder. (Note that if $qualifier$ placeholder is used, then $member$ placeholder will match only qualified references)$expression$ - expression of any type$identifier$ - identifier placeholder$args$ - any number of arguments$arg$ - single argument$arg1$ ... $arg10$ - single argument$stmts$ - any number of statements$stmt$ - single statement$stmt1$ ... $stmt10$ - single statement$name{Expression, &#39;Namespace.FooType&#39;}$ - expression with &#39;Namespace.FooType&#39; type$expression{&#39;Namespace.FooType&#39;}$ - expression with &#39;Namespace.FooType&#39; type$name{Type, &#39;Namespace.FooType&#39;}$ - &#39;Namespace.FooType&#39; type$type{&#39;Namespace.FooType&#39;}$ - &#39;Namespace.FooType&#39; type$statement{1,2}$ - 1 or 2 statements   Note that you can also define your own placeholders of the supported types and specify arguments for each placeholder type. This can be done using the following format: $name{type, arguments}$. Where &#39;name&#39; - is the name of your placeholder, &#39;type&#39; - is the type of your placeholder (one of the following: Expression, Type, Identifier, Statement, Argument, Member), &#39;arguments&#39; - arguments list for your placeholder. Each placeholder type supports it&#39;s own arguments, check examples below for mode details. Placeholder type may be omitted and determined from the placeholder name, if name has one of the following prefixes: expr, expression - expression placeholder, e.g. $exprPlaceholder{}$, $expressionFoo{}$arg, argument - argument placeholder, e.g. $argPlaceholder{}$, $argumentFoo{}$ident, identifier - identifier placeholder, e.g. $identPlaceholder{}$, $identifierFoo{}$stmt, statement - statement placeholder, e.g. $stmtPlaceholder{}$, $statementFoo{}$type - type placeholder, e.g. $typePlaceholder{}$, $typeFoo{}$member - member placeholder, e.g. $memberPlaceholder{}$, $memberFoo{}$   Expression placeholder arguments: expressionType - string value in single quotes, specifies full type name to match (empty string by default)exactType - boolean value, specifies if expression should have exact type match (false by default) Examples: $myExpr{Expression, &#39;Namespace.FooType&#39;, true}$ - defines expression placeholder, matching expressions of the &#39;Namespace.FooType&#39; type with exact matching.$myExpr{Expression, &#39;Namespace.FooType&#39;}$ - defines expression placeholder, matching expressions of the &#39;Namespace.FooType&#39; type or expressions which can be implicitly converted to &#39;Namespace.FooType&#39;.$myExpr{Expression}$ - defines expression placeholder, matching expressions of any type.$exprFoo{&#39;Namespace.FooType&#39;, true}$ - defines expression placeholder, matching expressions of the &#39;Namespace.FooType&#39; type with exact matching.   Type placeholder arguments: type - string value in single quotes, specifies full type name to match (empty string by default)exactType - boolean value, specifies if expression should have exact type match (false by default) Examples: $myType{Type, &#39;Namespace.FooType&#39;, true}$ - defines type placeholder, matching &#39;Namespace.FooType&#39; types with exact matching.$myType{Type, &#39;Namespace.FooType&#39;}$ - defines type placeholder, matching &#39;Namespace.FooType&#39; types or types, which can be implicitly converted to &#39;Namespace.FooType&#39;.$myType{Type}$ - defines type placeholder, matching any type.$typeFoo{&#39;Namespace.FooType&#39;, true}$ - defines types placeholder, matching &#39;Namespace.FooType&#39; types with exact matching.   Identifier placeholder arguments: nameRegex - string value in single quotes, specifies regex to use for matching (empty string by default)nameRegexCaseSensitive - boolean value, specifies if name regex is case sensitive (true by default)type - string value in single quotes, specifies full type name to match (empty string by default)exactType - boolean value, specifies if expression should have exact type match (false by default) Examples: $myIdentifier{Identifier, &#39;my.*&#39;, false, &#39;Namespace.FooType&#39;, true}$ - defines identifier placeholder, matching identifiers (ignoring case) starting with &#39;my&#39; prefix with &#39;Namespace.FooType&#39; type.$myIdentifier{Identifier, &#39;my.*&#39;, true, &#39;Namespace.FooType&#39;, true}$ - defines identifier placeholder, matching identifiers (case sensitively) starting with &#39;my&#39; prefix with &#39;Namespace.FooType&#39; type.$identFoo{&#39;my.*&#39;}$ - defines identifier placeholder, matching identifiers (case sensitively) starting with &#39;my&#39; prefix.   Statement placeholder arguments: minimalOccurrences - minimal number of statements to match (-1 by default)maximalOccurrences - maximal number of statements to match (-1 by default) Examples: $myStmt{Statement, 1, 2}$ - defines statement placeholder, matching 1 or 2 statements.$myStmt{Statement}$ - defines statement placeholder, matching any number of statements.$stmtFoo{1, 2}$ - defines statement placeholder, matching 1 or 2 statements.   Argument placeholder arguments: minimalOccurrences - minimal number of arguments to match (-1 by default)maximalOccurrences - maximal number of arguments to match (-1 by default) Examples: $myArg{Argument, 1, 2}$ - defines argument placeholder, matching 1 or 2 arguments.$myArg{Argument}$ - defines argument placeholder, matching any number of arguments.$argFoo{1, 2}$ - defines argument placeholder, matching 1 or 2 arguments.   Member placeholder arguments: docId - string value in single quotes, specifies XML documentation id of the member to match (empty by default) Examples: $myMember{Member, &#39;M:System.String.IsNullOrEmpty(System.String)&#39;}$ - defines member placeholder, matching &#39;IsNullOrEmpty&#39; member of the &#39;System.String&#39; type.$memberFoo{&#39;M:System.String.IsNullOrEmpty(System.String)&#39;}$ - defines member placeholder, matching &#39;IsNullOrEmpty&#39; member of the &#39;System.String&#39; type.   For more information please refer to the Structural Search and Replace article.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="LiveScope">
+            LiveScope
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="LiveScope.WPF.Annotations.CodeTemplateAttribute">
+
+
+
+  <h1 id="LiveScope_WPF_Annotations_CodeTemplateAttribute" data-uid="LiveScope.WPF.Annotations.CodeTemplateAttribute" class="text-break">
+Class CodeTemplateAttribute  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.WPF/Annotations.cs"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="LiveScope.html">LiveScope</a>.<a class="xref" href="LiveScope.WPF.html">WPF</a>.<a class="xref" href="LiveScope.WPF.Annotations.html">Annotations</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>LiveScope.WPF.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>
+Defines the code search template using the Structural Search and Replace syntax.
+It allows you to find and, if necessary, replace blocks of code that match a specific pattern.
+Search and replace patterns consist of a textual part and placeholders.
+Textural part must contain only identifiers allowed in the target language and will be matched exactly (white spaces, tabulation characters, and line breaks are ignored).
+Placeholders allow matching variable parts of the target code blocks.
+A placeholder has the following format: $placeholder_name$- where placeholder_name is an arbitrary identifier.
+</p>
+<p>
+Available placeholders:
+<ul><li>$this$ - expression of containing type</li><li>$thisType$ - containing type</li><li>$member$ - current member placeholder</li><li>$qualifier$ - this placeholder is available in the replace pattern and can be used to insert qualifier expression matched by the $member$ placeholder.
+(Note that if $qualifier$ placeholder is used, then $member$ placeholder will match only qualified references)</li><li>$expression$ - expression of any type</li><li>$identifier$ - identifier placeholder</li><li>$args$ - any number of arguments</li><li>$arg$ - single argument</li><li>$arg1$ ... $arg10$ - single argument</li><li>$stmts$ - any number of statements</li><li>$stmt$ - single statement</li><li>$stmt1$ ... $stmt10$ - single statement</li><li>$name{Expression, 'Namespace.FooType'}$ - expression with 'Namespace.FooType' type</li><li>$expression{'Namespace.FooType'}$ - expression with 'Namespace.FooType' type</li><li>$name{Type, 'Namespace.FooType'}$ - 'Namespace.FooType' type</li><li>$type{'Namespace.FooType'}$ - 'Namespace.FooType' type</li><li>$statement{1,2}$ - 1 or 2 statements</li></ul>
+
+<p>
+Note that you can also define your own placeholders of the supported types and specify arguments for each placeholder type.
+This can be done using the following format: $name{type, arguments}$. Where 'name' - is the name of your placeholder,
+'type' - is the type of your placeholder (one of the following: Expression, Type, Identifier, Statement, Argument, Member),
+'arguments' - arguments list for your placeholder. Each placeholder type supports it's own arguments, check examples below for mode details.
+Placeholder type may be omitted and determined from the placeholder name, if name has one of the following prefixes:
+<ul><li>expr, expression - expression placeholder, e.g. $exprPlaceholder{}$, $expressionFoo{}$</li><li>arg, argument - argument placeholder, e.g. $argPlaceholder{}$, $argumentFoo{}$</li><li>ident, identifier - identifier placeholder, e.g. $identPlaceholder{}$, $identifierFoo{}$</li><li>stmt, statement - statement placeholder, e.g. $stmtPlaceholder{}$, $statementFoo{}$</li><li>type - type placeholder, e.g. $typePlaceholder{}$, $typeFoo{}$</li><li>member - member placeholder, e.g. $memberPlaceholder{}$, $memberFoo{}$</li></ul>
+
+<p>
+Expression placeholder arguments:
+<ul><li>expressionType - string value in single quotes, specifies full type name to match (empty string by default)</li><li>exactType - boolean value, specifies if expression should have exact type match (false by default)</li></ul>
+Examples:
+<ul><li>$myExpr{Expression, 'Namespace.FooType', true}$ - defines expression placeholder, matching expressions of the 'Namespace.FooType' type with exact matching.</li><li>$myExpr{Expression, 'Namespace.FooType'}$ - defines expression placeholder, matching expressions of the 'Namespace.FooType' type or expressions which can be implicitly converted to 'Namespace.FooType'.</li><li>$myExpr{Expression}$ - defines expression placeholder, matching expressions of any type.</li><li>$exprFoo{'Namespace.FooType', true}$ - defines expression placeholder, matching expressions of the 'Namespace.FooType' type with exact matching.</li></ul>
+
+<p>
+Type placeholder arguments:
+<ul><li>type - string value in single quotes, specifies full type name to match (empty string by default)</li><li>exactType - boolean value, specifies if expression should have exact type match (false by default)</li></ul>
+Examples:
+<ul><li>$myType{Type, 'Namespace.FooType', true}$ - defines type placeholder, matching 'Namespace.FooType' types with exact matching.</li><li>$myType{Type, 'Namespace.FooType'}$ - defines type placeholder, matching 'Namespace.FooType' types or types, which can be implicitly converted to 'Namespace.FooType'.</li><li>$myType{Type}$ - defines type placeholder, matching any type.</li><li>$typeFoo{'Namespace.FooType', true}$ - defines types placeholder, matching 'Namespace.FooType' types with exact matching.</li></ul>
+
+<p>
+Identifier placeholder arguments:
+<ul><li>nameRegex - string value in single quotes, specifies regex to use for matching (empty string by default)</li><li>nameRegexCaseSensitive - boolean value, specifies if name regex is case sensitive (true by default)</li><li>type - string value in single quotes, specifies full type name to match (empty string by default)</li><li>exactType - boolean value, specifies if expression should have exact type match (false by default)</li></ul>
+Examples:
+<ul><li>$myIdentifier{Identifier, 'my.*', false, 'Namespace.FooType', true}$ - defines identifier placeholder, matching identifiers (ignoring case) starting with 'my' prefix with 'Namespace.FooType' type.</li><li>$myIdentifier{Identifier, 'my.*', true, 'Namespace.FooType', true}$ - defines identifier placeholder, matching identifiers (case sensitively) starting with 'my' prefix with 'Namespace.FooType' type.</li><li>$identFoo{'my.*'}$ - defines identifier placeholder, matching identifiers (case sensitively) starting with 'my' prefix.</li></ul>
+
+<p>
+Statement placeholder arguments:
+<ul><li>minimalOccurrences - minimal number of statements to match (-1 by default)</li><li>maximalOccurrences - maximal number of statements to match (-1 by default)</li></ul>
+Examples:
+<ul><li>$myStmt{Statement, 1, 2}$ - defines statement placeholder, matching 1 or 2 statements.</li><li>$myStmt{Statement}$ - defines statement placeholder, matching any number of statements.</li><li>$stmtFoo{1, 2}$ - defines statement placeholder, matching 1 or 2 statements.</li></ul>
+
+<p>
+Argument placeholder arguments:
+<ul><li>minimalOccurrences - minimal number of arguments to match (-1 by default)</li><li>maximalOccurrences - maximal number of arguments to match (-1 by default)</li></ul>
+Examples:
+<ul><li>$myArg{Argument, 1, 2}$ - defines argument placeholder, matching 1 or 2 arguments.</li><li>$myArg{Argument}$ - defines argument placeholder, matching any number of arguments.</li><li>$argFoo{1, 2}$ - defines argument placeholder, matching 1 or 2 arguments.</li></ul>
+
+<p>
+Member placeholder arguments:
+<ul><li>docId - string value in single quotes, specifies XML documentation id of the member to match (empty by default)</li></ul>
+Examples:
+<ul><li>$myMember{Member, 'M:System.String.IsNullOrEmpty(System.String)'}$ - defines member placeholder, matching 'IsNullOrEmpty' member of the 'System.String' type.</li><li>$memberFoo{'M:System.String.IsNullOrEmpty(System.String)'}$ - defines member placeholder, matching 'IsNullOrEmpty' member of the 'System.String' type.</li></ul>
+
+<p>
+For more information please refer to the <a href="https://www.jetbrains.com/help/resharper/Navigation_and_Search__Structural_Search_and_Replace.html">Structural Search and Replace</a> article.
+</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Class|AttributeTargets.Struct|AttributeTargets.Enum|AttributeTargets.Constructor|AttributeTargets.Method|AttributeTargets.Property|AttributeTargets.Field|AttributeTargets.Event|AttributeTargets.Interface, AllowMultiple = true, Inherited = false)]
+public sealed class CodeTemplateAttribute : Attribute</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute">Attribute</a></div>
+      <div><span class="xref">CodeTemplateAttribute</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo-system-type)">Attribute.GetCustomAttributes(MemberInfo, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo-system-type-system-boolean)">Attribute.GetCustomAttributes(MemberInfo, Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo)">Attribute.GetCustomAttributes(MemberInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-memberinfo-system-boolean)">Attribute.GetCustomAttributes(MemberInfo, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-memberinfo-system-type)">Attribute.IsDefined(MemberInfo, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-memberinfo-system-type-system-boolean)">Attribute.IsDefined(MemberInfo, Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-memberinfo-system-type)">Attribute.GetCustomAttribute(MemberInfo, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-memberinfo-system-type-system-boolean)">Attribute.GetCustomAttribute(MemberInfo, Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo)">Attribute.GetCustomAttributes(ParameterInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo-system-type)">Attribute.GetCustomAttributes(ParameterInfo, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo-system-type-system-boolean)">Attribute.GetCustomAttributes(ParameterInfo, Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-parameterinfo-system-boolean)">Attribute.GetCustomAttributes(ParameterInfo, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-parameterinfo-system-type)">Attribute.IsDefined(ParameterInfo, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-parameterinfo-system-type-system-boolean)">Attribute.IsDefined(ParameterInfo, Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-parameterinfo-system-type)">Attribute.GetCustomAttribute(ParameterInfo, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-parameterinfo-system-type-system-boolean)">Attribute.GetCustomAttribute(ParameterInfo, Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module-system-type)">Attribute.GetCustomAttributes(Module, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module)">Attribute.GetCustomAttributes(Module)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module-system-boolean)">Attribute.GetCustomAttributes(Module, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-module-system-type-system-boolean)">Attribute.GetCustomAttributes(Module, Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-module-system-type)">Attribute.IsDefined(Module, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-module-system-type-system-boolean)">Attribute.IsDefined(Module, Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-module-system-type)">Attribute.GetCustomAttribute(Module, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-module-system-type-system-boolean)">Attribute.GetCustomAttribute(Module, Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly-system-type)">Attribute.GetCustomAttributes(Assembly, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly-system-type-system-boolean)">Attribute.GetCustomAttributes(Assembly, Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly)">Attribute.GetCustomAttributes(Assembly)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattributes#system-attribute-getcustomattributes(system-reflection-assembly-system-boolean)">Attribute.GetCustomAttributes(Assembly, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-assembly-system-type)">Attribute.IsDefined(Assembly, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.isdefined#system-attribute-isdefined(system-reflection-assembly-system-type-system-boolean)">Attribute.IsDefined(Assembly, Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-assembly-system-type)">Attribute.GetCustomAttribute(Assembly, Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.getcustomattribute#system-attribute-getcustomattribute(system-reflection-assembly-system-type-system-boolean)">Attribute.GetCustomAttribute(Assembly, Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.equals">Attribute.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.gethashcode">Attribute.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.match">Attribute.Match(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.isdefaultattribute">Attribute.IsDefaultAttribute()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.attribute.typeid">Attribute.TypeId</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="LiveScope_WPF_Annotations_CodeTemplateAttribute__ctor_" data-uid="LiveScope.WPF.Annotations.CodeTemplateAttribute.#ctor*"></a>
+
+  <h3 id="LiveScope_WPF_Annotations_CodeTemplateAttribute__ctor_System_String_" data-uid="LiveScope.WPF.Annotations.CodeTemplateAttribute.#ctor(System.String)">
+  CodeTemplateAttribute(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.WPF/Annotations.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CodeTemplateAttribute(string searchTemplate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>searchTemplate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="LiveScope_WPF_Annotations_CodeTemplateAttribute_FormatAfterReplace_" data-uid="LiveScope.WPF.Annotations.CodeTemplateAttribute.FormatAfterReplace*"></a>
+
+  <h3 id="LiveScope_WPF_Annotations_CodeTemplateAttribute_FormatAfterReplace" data-uid="LiveScope.WPF.Annotations.CodeTemplateAttribute.FormatAfterReplace">
+  FormatAfterReplace
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.WPF/Annotations.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Apply code formatting after code replacement.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool FormatAfterReplace { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveScope_WPF_Annotations_CodeTemplateAttribute_MatchSimilarConstructs_" data-uid="LiveScope.WPF.Annotations.CodeTemplateAttribute.MatchSimilarConstructs*"></a>
+
+  <h3 id="LiveScope_WPF_Annotations_CodeTemplateAttribute_MatchSimilarConstructs" data-uid="LiveScope.WPF.Annotations.CodeTemplateAttribute.MatchSimilarConstructs">
+  MatchSimilarConstructs
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.WPF/Annotations.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Whether similar code blocks should be matched.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool MatchSimilarConstructs { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveScope_WPF_Annotations_CodeTemplateAttribute_Message_" data-uid="LiveScope.WPF.Annotations.CodeTemplateAttribute.Message*"></a>
+
+  <h3 id="LiveScope_WPF_Annotations_CodeTemplateAttribute_Message" data-uid="LiveScope.WPF.Annotations.CodeTemplateAttribute.Message">
+  Message
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.WPF/Annotations.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Message to show when the search pattern was found.
+You can also prepend the message text with &quot;Error:&quot;, &quot;Warning:&quot;, &quot;Suggestion:&quot; or &quot;Hint:&quot; prefix to specify the pattern severity.
+Code patterns with replace template produce suggestions by default.
+However, if replace template is not provided, then warning severity will be used.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Message { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveScope_WPF_Annotations_CodeTemplateAttribute_ReplaceMessage_" data-uid="LiveScope.WPF.Annotations.CodeTemplateAttribute.ReplaceMessage*"></a>
+
+  <h3 id="LiveScope_WPF_Annotations_CodeTemplateAttribute_ReplaceMessage" data-uid="LiveScope.WPF.Annotations.CodeTemplateAttribute.ReplaceMessage">
+  ReplaceMessage
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.WPF/Annotations.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Replace message to show in the light bulb.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ReplaceMessage { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveScope_WPF_Annotations_CodeTemplateAttribute_ReplaceTemplate_" data-uid="LiveScope.WPF.Annotations.CodeTemplateAttribute.ReplaceTemplate*"></a>
+
+  <h3 id="LiveScope_WPF_Annotations_CodeTemplateAttribute_ReplaceTemplate" data-uid="LiveScope.WPF.Annotations.CodeTemplateAttribute.ReplaceTemplate">
+  ReplaceTemplate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.WPF/Annotations.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Structural search replace pattern to use in code template replacement.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ReplaceTemplate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveScope_WPF_Annotations_CodeTemplateAttribute_SearchTemplate_" data-uid="LiveScope.WPF.Annotations.CodeTemplateAttribute.SearchTemplate*"></a>
+
+  <h3 id="LiveScope_WPF_Annotations_CodeTemplateAttribute_SearchTemplate" data-uid="LiveScope.WPF.Annotations.CodeTemplateAttribute.SearchTemplate">
+  SearchTemplate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.WPF/Annotations.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Structural search pattern to use in the code template.
+Pattern includes textual part, which must contain only identifiers allowed in the target language,
+and placeholders, which allow matching variable parts of the target code blocks.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SearchTemplate { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveScope_WPF_Annotations_CodeTemplateAttribute_ShortenReferences_" data-uid="LiveScope.WPF.Annotations.CodeTemplateAttribute.ShortenReferences*"></a>
+
+  <h3 id="LiveScope_WPF_Annotations_CodeTemplateAttribute_ShortenReferences" data-uid="LiveScope.WPF.Annotations.CodeTemplateAttribute.ShortenReferences">
+  ShortenReferences
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.WPF/Annotations.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Automatically insert namespace import directives or remove qualifiers that become redundant after the template is applied.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ShortenReferences { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="LiveScope_WPF_Annotations_CodeTemplateAttribute_SuppressionKey_" data-uid="LiveScope.WPF.Annotations.CodeTemplateAttribute.SuppressionKey*"></a>
+
+  <h3 id="LiveScope_WPF_Annotations_CodeTemplateAttribute_SuppressionKey" data-uid="LiveScope.WPF.Annotations.CodeTemplateAttribute.SuppressionKey">
+  SuppressionKey
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.WPF/Annotations.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>String to use as a suppression key.
+By default the following suppression key is used 'CodeTemplate_SomeType_SomeMember',
+where 'SomeType' and 'SomeMember' are names of the associated containing type and member to which this attribute is applied.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SuppressionKey { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.WPF/Annotations.cs" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

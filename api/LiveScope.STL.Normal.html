@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Normal | LiveScope </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Normal | LiveScope ">
+      
+      <meta name="description" content="A simple XYZ representation of a normal ().">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="LiveScope">
+            LiveScope
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="LiveScope.STL.Normal">
+
+
+
+  <h1 id="LiveScope_STL_Normal" data-uid="LiveScope.STL.Normal" class="text-break">
+Class Normal  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/STL/Normal.cs"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="LiveScope.html">LiveScope</a>.<a class="xref" href="LiveScope.STL.html">STL</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>LiveScope.Net.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>A simple XYZ representation of a normal (<a class="xref" href="LiveScope.STL.Vertex.html">Vertex</a>).</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obfuscation(Exclude = false)]
+public class Normal : Vertex, IEquatable&lt;Vertex&gt;</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="LiveScope.STL.Vertex.html">Vertex</a></div>
+      <div><span class="xref">Normal</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="LiveScope.STL.Vertex.html">Vertex</a>&gt;</div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="LiveScope.STL.Vertex.html#LiveScope_STL_Vertex_Shift_LiveScope_STL_Vertex_">Vertex.Shift(Vertex)</a>
+    </div>
+    <div>
+      <a class="xref" href="LiveScope.STL.Vertex.html#LiveScope_STL_Vertex_Write_System_IO_StreamWriter_">Vertex.Write(StreamWriter)</a>
+    </div>
+    <div>
+      <a class="xref" href="LiveScope.STL.Vertex.html#LiveScope_STL_Vertex_Write_System_IO_BinaryWriter_">Vertex.Write(BinaryWriter)</a>
+    </div>
+    <div>
+      <a class="xref" href="LiveScope.STL.Vertex.html#LiveScope_STL_Vertex_GetHashCode">Vertex.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="LiveScope.STL.Vertex.html#LiveScope_STL_Vertex_Equals_System_Object_">Vertex.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="LiveScope.STL.Vertex.html#LiveScope_STL_Vertex_Equals_LiveScope_STL_Vertex_">Vertex.Equals(Vertex)</a>
+    </div>
+    <div>
+      <a class="xref" href="LiveScope.STL.Vertex.html#LiveScope_STL_Vertex_X">Vertex.X</a>
+    </div>
+    <div>
+      <a class="xref" href="LiveScope.STL.Vertex.html#LiveScope_STL_Vertex_Y">Vertex.Y</a>
+    </div>
+    <div>
+      <a class="xref" href="LiveScope.STL.Vertex.html#LiveScope_STL_Vertex_Z">Vertex.Z</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="LiveScope_STL_Normal__ctor_" data-uid="LiveScope.STL.Normal.#ctor*"></a>
+
+  <h3 id="LiveScope_STL_Normal__ctor" data-uid="LiveScope.STL.Normal.#ctor">
+  Normal()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/STL/Normal.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a new, empty <a class="xref" href="LiveScope.STL.Normal.html">Normal</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Normal()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveScope_STL_Normal__ctor_" data-uid="LiveScope.STL.Normal.#ctor*"></a>
+
+  <h3 id="LiveScope_STL_Normal__ctor_System_Single_System_Single_System_Single_" data-uid="LiveScope.STL.Normal.#ctor(System.Single,System.Single,System.Single)">
+  Normal(float, float, float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/STL/Normal.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a new <a class="xref" href="LiveScope.STL.Normal.html">Normal</a> using the provided coordinates.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Normal(float x, float y, float z)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>z</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="LiveScope_STL_Normal_FromVertex_" data-uid="LiveScope.STL.Normal.FromVertex*"></a>
+
+  <h3 id="LiveScope_STL_Normal_FromVertex_LiveScope_STL_Vertex_" data-uid="LiveScope.STL.Normal.FromVertex(LiveScope.STL.Vertex)">
+  FromVertex(Vertex)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/STL/Normal.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts the <code class="paramref">vertex</code> to a normal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Normal FromVertex(Vertex vertex)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vertex</code> <a class="xref" href="LiveScope.STL.Vertex.html">Vertex</a></dt>
+    <dd><p>The <a class="xref" href="LiveScope.STL.Vertex.html">Vertex</a> to be converted into a <a class="xref" href="LiveScope.STL.Normal.html">Normal</a>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveScope.STL.Normal.html">Normal</a></dt>
+    <dd><p>A <a class="xref" href="LiveScope.STL.Normal.html">Normal</a> or null if the <code class="paramref">vertex</code> is null.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="LiveScope_STL_Normal_FromVertex_LiveScope_STL_Vertex__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This does nothing more than copy the X, Y and Z coordinates of the <code class="paramref">vertex</code> into a new <a class="xref" href="LiveScope.STL.Normal.html">Normal</a> instance.</p>
+</div>
+
+
+
+
+  <a id="LiveScope_STL_Normal_Invert_" data-uid="LiveScope.STL.Normal.Invert*"></a>
+
+  <h3 id="LiveScope_STL_Normal_Invert" data-uid="LiveScope.STL.Normal.Invert">
+  Invert()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/STL/Normal.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Flips the normal so it faces the opposite direction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Invert()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveScope_STL_Normal_Read_" data-uid="LiveScope.STL.Normal.Read*"></a>
+
+  <h3 id="LiveScope_STL_Normal_Read_System_IO_BinaryReader_" data-uid="LiveScope.STL.Normal.Read(System.IO.BinaryReader)">
+  Read(BinaryReader)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/STL/Normal.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Reads a single <a class="xref" href="LiveScope.STL.Normal.html">Normal</a> from the <code class="paramref">reader</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Normal Read(BinaryReader reader)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.binaryreader">BinaryReader</a></dt>
+    <dd><p>The reader which contains a <a class="xref" href="LiveScope.STL.Normal.html">Normal</a> to be read at the current position</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveScope.STL.Normal.html">Normal</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveScope_STL_Normal_Read_" data-uid="LiveScope.STL.Normal.Read*"></a>
+
+  <h3 id="LiveScope_STL_Normal_Read_System_IO_StreamReader_" data-uid="LiveScope.STL.Normal.Read(System.IO.StreamReader)">
+  Read(StreamReader)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/STL/Normal.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Reads a single <a class="xref" href="LiveScope.STL.Normal.html">Normal</a> from the <code class="paramref">reader</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Normal Read(StreamReader reader)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reader</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.streamreader">StreamReader</a></dt>
+    <dd><p>The reader which contains a <a class="xref" href="LiveScope.STL.Normal.html">Normal</a> to be read at the current position</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="LiveScope.STL.Normal.html">Normal</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="LiveScope_STL_Normal_ToString_" data-uid="LiveScope.STL.Normal.ToString*"></a>
+
+  <h3 id="LiveScope_STL_Normal_ToString" data-uid="LiveScope.STL.Normal.ToString">
+  ToString()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/STL/Normal.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the string representation of this <a class="xref" href="LiveScope.STL.Normal.html">Normal</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/STL/Normal.cs" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
