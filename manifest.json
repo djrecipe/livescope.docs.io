@@ -32,6 +32,48 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/A.A.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/A.A.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "A.A",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/A.E.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/A.E.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "A.E",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/A.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/A.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "A",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/LiveScope.Avalonia.Android.AndroidAudioDataCapture.yml",
       "output": {
         ".html": {
@@ -732,20 +774,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/LiveScope.STL.Extensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/LiveScope.STL.Extensions.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "LiveScope.STL.Extensions",
-      "Summary": "<p sourcefile=\"api/LiveScope.STL.Extensions.yml\" sourcestartlinenumber=\"1\">General STL extendsions for working with facets and vertices.</p>\n"
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/LiveScope.STL.Facet.yml",
       "output": {
         ".html": {
@@ -757,20 +785,6 @@
       "IsMRef": true,
       "Title": "LiveScope.STL.Facet",
       "Summary": "<p sourcefile=\"api/LiveScope.STL.Facet.yml\" sourcestartlinenumber=\"1\">A representation of a facet which is defined by its location (<xref href=\"LiveScope.STL.Facet.Vertices\" data-throw-if-not-resolved=\"false\"></xref>) and directionality (<xref href=\"LiveScope.STL.Facet.Normal\" data-throw-if-not-resolved=\"false\"></xref>).</p>\n"
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/LiveScope.STL.Normal.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/LiveScope.STL.Normal.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "LiveScope.STL.Normal",
-      "Summary": "<p sourcefile=\"api/LiveScope.STL.Normal.yml\" sourcestartlinenumber=\"1\">A simple XYZ representation of a normal (<xref href=\"LiveScope.STL.Vertex\" data-throw-if-not-resolved=\"false\"></xref>).</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -2271,19 +2285,6 @@
       "output": {
         ".html": {
           "relative_path": "index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "toc.html"
-        },
-        ".json": {
-          "relative_path": "toc.json"
         }
       },
       "version": ""

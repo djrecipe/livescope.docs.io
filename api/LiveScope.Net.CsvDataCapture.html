@@ -10,7 +10,7 @@
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:navrel" content="">
       <meta name="docfx:tocrel" content="toc.html">
       
       <meta name="docfx:rel" content="../">
@@ -89,7 +89,7 @@
 
 
   <h1 id="LiveScope_Net_CsvDataCapture" data-uid="LiveScope.Net.CsvDataCapture" class="text-break">
-Class CsvDataCapture  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/CsvDataCapture.cs"><i class="bi bi-code-slash"></i></a>
+Class CsvDataCapture  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/GenerativeDataCapture.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,8 +102,7 @@ Class CsvDataCapture  <a class="header-action link-secondary" title="View source
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Obfuscation(Exclude = true, ApplyToMembers = true)]
-public class CsvDataCapture : IDataCapture, IPeriodicEmissionCapture, IBackgroundDataCapture</code></pre>
+    <pre><code class="lang-csharp hljs">public class CsvDataCapture : IDataCapture, IPeriodicEmissionCapture, IBackgroundDataCapture</code></pre>
   </div>
 
 
@@ -166,7 +165,7 @@ public class CsvDataCapture : IDataCapture, IPeriodicEmissionCapture, IBackgroun
 
   <h3 id="LiveScope_Net_CsvDataCapture__ctor_System_IO_Stream_System_Double_System_Double_System_Int32_" data-uid="LiveScope.Net.CsvDataCapture.#ctor(System.IO.Stream,System.Double,System.Double,System.Int32)">
   CsvDataCapture(Stream, double, double, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/CsvDataCapture.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/GenerativeDataCapture.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Capture new CSV data capture from the specified stream</p>
@@ -208,7 +207,7 @@ public class CsvDataCapture : IDataCapture, IPeriodicEmissionCapture, IBackgroun
 
   <h3 id="LiveScope_Net_CsvDataCapture__ctor_System_String_System_Double_" data-uid="LiveScope.Net.CsvDataCapture.#ctor(System.String,System.Double)">
   CsvDataCapture(string, double)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/CsvDataCapture.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/GenerativeDataCapture.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Capture CSV data from the specified file and statically display all the data</p>
@@ -244,7 +243,7 @@ public class CsvDataCapture : IDataCapture, IPeriodicEmissionCapture, IBackgroun
 
   <h3 id="LiveScope_Net_CsvDataCapture__ctor_System_String_System_Double_System_Double_System_Int32_" data-uid="LiveScope.Net.CsvDataCapture.#ctor(System.String,System.Double,System.Double,System.Int32)">
   CsvDataCapture(string, double, double, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/CsvDataCapture.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/GenerativeDataCapture.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Capture CSV data from the specified file and replay the data as if it was live data</p>
@@ -290,7 +289,7 @@ public class CsvDataCapture : IDataCapture, IPeriodicEmissionCapture, IBackgroun
 
   <h3 id="LiveScope_Net_CsvDataCapture_BufferSize" data-uid="LiveScope.Net.CsvDataCapture.BufferSize">
   BufferSize
-  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/CsvDataCapture.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/GenerativeDataCapture.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Buffer size (maximum number of double values stored within the buffer)</p>
@@ -322,7 +321,7 @@ public class CsvDataCapture : IDataCapture, IPeriodicEmissionCapture, IBackgroun
 
   <h3 id="LiveScope_Net_CsvDataCapture_DataSource" data-uid="LiveScope.Net.CsvDataCapture.DataSource">
   DataSource
-  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/CsvDataCapture.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/GenerativeDataCapture.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Source of data</p>
@@ -354,7 +353,7 @@ public class CsvDataCapture : IDataCapture, IPeriodicEmissionCapture, IBackgroun
 
   <h3 id="LiveScope_Net_CsvDataCapture_EmissionPeriod" data-uid="LiveScope.Net.CsvDataCapture.EmissionPeriod">
   EmissionPeriod
-  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/CsvDataCapture.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/GenerativeDataCapture.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>How often new samples are emitted, in milliseconds</p>
@@ -386,7 +385,7 @@ public class CsvDataCapture : IDataCapture, IPeriodicEmissionCapture, IBackgroun
 
   <h3 id="LiveScope_Net_CsvDataCapture_ID" data-uid="LiveScope.Net.CsvDataCapture.ID">
   ID
-  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/CsvDataCapture.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/GenerativeDataCapture.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Data capture identifier</p>
@@ -418,7 +417,7 @@ public class CsvDataCapture : IDataCapture, IPeriodicEmissionCapture, IBackgroun
 
   <h3 id="LiveScope_Net_CsvDataCapture_IsCapturing" data-uid="LiveScope.Net.CsvDataCapture.IsCapturing">
   IsCapturing
-  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/CsvDataCapture.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/GenerativeDataCapture.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Background capture thread is currently active</p>
@@ -450,7 +449,7 @@ public class CsvDataCapture : IDataCapture, IPeriodicEmissionCapture, IBackgroun
 
   <h3 id="LiveScope_Net_CsvDataCapture_SampleInterval" data-uid="LiveScope.Net.CsvDataCapture.SampleInterval">
   SampleInterval
-  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/CsvDataCapture.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/GenerativeDataCapture.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sample interval (seconds)</p>
@@ -485,7 +484,7 @@ public class CsvDataCapture : IDataCapture, IPeriodicEmissionCapture, IBackgroun
 
   <h3 id="LiveScope_Net_CsvDataCapture_SampleOrder" data-uid="LiveScope.Net.CsvDataCapture.SampleOrder">
   SampleOrder
-  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/CsvDataCapture.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/GenerativeDataCapture.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sample ordering</p>
@@ -517,7 +516,7 @@ public class CsvDataCapture : IDataCapture, IPeriodicEmissionCapture, IBackgroun
 
   <h3 id="LiveScope_Net_CsvDataCapture_SweepMode" data-uid="LiveScope.Net.CsvDataCapture.SweepMode">
   SweepMode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/CsvDataCapture.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/GenerativeDataCapture.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sweep mode, determining when acquisition is halted</p>
@@ -553,7 +552,7 @@ public class CsvDataCapture : IDataCapture, IPeriodicEmissionCapture, IBackgroun
 
   <h3 id="LiveScope_Net_CsvDataCapture_SetOnDataAvailable_LiveScope_Net_SamplesDelegate_" data-uid="LiveScope.Net.CsvDataCapture.SetOnDataAvailable(LiveScope.Net.SamplesDelegate)">
   SetOnDataAvailable(SamplesDelegate)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/CsvDataCapture.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/GenerativeDataCapture.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Assign callback method for when data is available to render</p>
@@ -586,7 +585,7 @@ public class CsvDataCapture : IDataCapture, IPeriodicEmissionCapture, IBackgroun
 
   <h3 id="LiveScope_Net_CsvDataCapture_StartCapture" data-uid="LiveScope.Net.CsvDataCapture.StartCapture">
   StartCapture()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/CsvDataCapture.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/GenerativeDataCapture.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Start capturing</p>
@@ -613,7 +612,7 @@ public class CsvDataCapture : IDataCapture, IPeriodicEmissionCapture, IBackgroun
 
   <h3 id="LiveScope_Net_CsvDataCapture_StopCapture" data-uid="LiveScope.Net.CsvDataCapture.StopCapture">
   StopCapture()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/CsvDataCapture.cs"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/GenerativeDataCapture.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Stop capturing</p>
@@ -640,7 +639,7 @@ public class CsvDataCapture : IDataCapture, IPeriodicEmissionCapture, IBackgroun
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/CsvDataCapture.cs" class="edit-link">Edit this page</a>
+          <a href="https://github.com/djrecipe/LiveScope/blob/28ffb3390e01d2e6e07e6a6158537d10be8253cb/LiveScope.Net/DataCapture/GenerativeDataCapture.cs" class="edit-link">Edit this page</a>
         </div>
 
 

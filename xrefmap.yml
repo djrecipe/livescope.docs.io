@@ -1,6 +1,171 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: A
+  name: A
+  href: api/A.html
+  commentId: N:A
+  fullName: A
+  nameWithType: A
+- uid: A.A
+  name: A
+  href: api/A.A.html
+  commentId: T:A.A
+  fullName: A.A
+  nameWithType: A
+- uid: A.A.A(System.Collections.Generic.IEnumerable{LiveScope.STL.Facet})
+  name: A(IEnumerable<Facet>)
+  href: api/A.A.html#A_A_A_System_Collections_Generic_IEnumerable_LiveScope_STL_Facet__
+  commentId: M:A.A.A(System.Collections.Generic.IEnumerable{LiveScope.STL.Facet})
+  name.vb: A(IEnumerable(Of Facet))
+  fullName: A.A.A(System.Collections.Generic.IEnumerable<LiveScope.STL.Facet>)
+  fullName.vb: A.A.A(System.Collections.Generic.IEnumerable(Of LiveScope.STL.Facet))
+  nameWithType: A.A(IEnumerable<Facet>)
+  nameWithType.vb: A.A(IEnumerable(Of Facet))
+- uid: A.A.A(System.Collections.Generic.IEnumerable{LiveScope.STL.Facet},LiveScope.STL.Vertex)
+  name: A(IEnumerable<Facet>, Vertex)
+  href: api/A.A.html#A_A_A_System_Collections_Generic_IEnumerable_LiveScope_STL_Facet__LiveScope_STL_Vertex_
+  commentId: M:A.A.A(System.Collections.Generic.IEnumerable{LiveScope.STL.Facet},LiveScope.STL.Vertex)
+  name.vb: A(IEnumerable(Of Facet), Vertex)
+  fullName: A.A.A(System.Collections.Generic.IEnumerable<LiveScope.STL.Facet>, LiveScope.STL.Vertex)
+  fullName.vb: A.A.A(System.Collections.Generic.IEnumerable(Of LiveScope.STL.Facet), LiveScope.STL.Vertex)
+  nameWithType: A.A(IEnumerable<Facet>, Vertex)
+  nameWithType.vb: A.A(IEnumerable(Of Facet), Vertex)
+- uid: A.A.A(System.Collections.Generic.IEnumerable{LiveScope.STL.Facet},System.Single,System.Single,System.Single)
+  name: A(IEnumerable<Facet>, float, float, float)
+  href: api/A.A.html#A_A_A_System_Collections_Generic_IEnumerable_LiveScope_STL_Facet__System_Single_System_Single_System_Single_
+  commentId: M:A.A.A(System.Collections.Generic.IEnumerable{LiveScope.STL.Facet},System.Single,System.Single,System.Single)
+  name.vb: A(IEnumerable(Of Facet), Single, Single, Single)
+  fullName: A.A.A(System.Collections.Generic.IEnumerable<LiveScope.STL.Facet>, float, float, float)
+  fullName.vb: A.A.A(System.Collections.Generic.IEnumerable(Of LiveScope.STL.Facet), Single, Single, Single)
+  nameWithType: A.A(IEnumerable<Facet>, float, float, float)
+  nameWithType.vb: A.A(IEnumerable(Of Facet), Single, Single, Single)
+- uid: A.A.A(System.Collections.Generic.IEnumerable{LiveScope.STL.Vertex},LiveScope.STL.Vertex)
+  name: A(IEnumerable<Vertex>, Vertex)
+  href: api/A.A.html#A_A_A_System_Collections_Generic_IEnumerable_LiveScope_STL_Vertex__LiveScope_STL_Vertex_
+  commentId: M:A.A.A(System.Collections.Generic.IEnumerable{LiveScope.STL.Vertex},LiveScope.STL.Vertex)
+  name.vb: A(IEnumerable(Of Vertex), Vertex)
+  fullName: A.A.A(System.Collections.Generic.IEnumerable<LiveScope.STL.Vertex>, LiveScope.STL.Vertex)
+  fullName.vb: A.A.A(System.Collections.Generic.IEnumerable(Of LiveScope.STL.Vertex), LiveScope.STL.Vertex)
+  nameWithType: A.A(IEnumerable<Vertex>, Vertex)
+  nameWithType.vb: A.A(IEnumerable(Of Vertex), Vertex)
+- uid: A.A.A(System.Collections.Generic.IEnumerable{LiveScope.STL.Vertex},System.Single,System.Single,System.Single)
+  name: A(IEnumerable<Vertex>, float, float, float)
+  href: api/A.A.html#A_A_A_System_Collections_Generic_IEnumerable_LiveScope_STL_Vertex__System_Single_System_Single_System_Single_
+  commentId: M:A.A.A(System.Collections.Generic.IEnumerable{LiveScope.STL.Vertex},System.Single,System.Single,System.Single)
+  name.vb: A(IEnumerable(Of Vertex), Single, Single, Single)
+  fullName: A.A.A(System.Collections.Generic.IEnumerable<LiveScope.STL.Vertex>, float, float, float)
+  fullName.vb: A.A.A(System.Collections.Generic.IEnumerable(Of LiveScope.STL.Vertex), Single, Single, Single)
+  nameWithType: A.A(IEnumerable<Vertex>, float, float, float)
+  nameWithType.vb: A.A(IEnumerable(Of Vertex), Single, Single, Single)
+- uid: A.A.A(System.String)
+  name: A(string)
+  href: api/A.A.html#A_A_A_System_String_
+  commentId: M:A.A.A(System.String)
+  name.vb: A(String)
+  fullName: A.A.A(string)
+  fullName.vb: A.A.A(String)
+  nameWithType: A.A(string)
+  nameWithType.vb: A.A(String)
+- uid: A.A.A*
+  name: A
+  href: api/A.A.html#A_A_A_
+  commentId: Overload:A.A.A
+  fullName: A.A.A
+  nameWithType: A.A
+- uid: A.A.A``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  name: A<T>(IEnumerable<T>, Action<T>)
+  href: api/A.A.html#A_A_A__1_System_Collections_Generic_IEnumerable___0__System_Action___0__
+  commentId: M:A.A.A``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  name.vb: A(Of T)(IEnumerable(Of T), Action(Of T))
+  fullName: A.A.A<T>(System.Collections.Generic.IEnumerable<T>, System.Action<T>)
+  fullName.vb: A.A.A(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Action(Of T))
+  nameWithType: A.A<T>(IEnumerable<T>, Action<T>)
+  nameWithType.vb: A.A(Of T)(IEnumerable(Of T), Action(Of T))
+- uid: A.A.A``1(System.Collections.Generic.IEnumerable{``0},System.Func{System.Int32,``0,System.Boolean})
+  name: A<T>(IEnumerable<T>, Func<int, T, bool>)
+  href: api/A.A.html#A_A_A__1_System_Collections_Generic_IEnumerable___0__System_Func_System_Int32___0_System_Boolean__
+  commentId: M:A.A.A``1(System.Collections.Generic.IEnumerable{``0},System.Func{System.Int32,``0,System.Boolean})
+  name.vb: A(Of T)(IEnumerable(Of T), Func(Of Integer, T, Boolean))
+  fullName: A.A.A<T>(System.Collections.Generic.IEnumerable<T>, System.Func<int, T, bool>)
+  fullName.vb: A.A.A(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of Integer, T, Boolean))
+  nameWithType: A.A<T>(IEnumerable<T>, Func<int, T, bool>)
+  nameWithType.vb: A.A(Of T)(IEnumerable(Of T), Func(Of Integer, T, Boolean))
+- uid: A.E
+  name: E
+  href: api/A.E.html
+  commentId: T:A.E
+  fullName: A.E
+  nameWithType: E
+- uid: A.E.#ctor
+  name: E()
+  href: api/A.E.html#A_E__ctor
+  commentId: M:A.E.#ctor
+  name.vb: New()
+  fullName: A.E.E()
+  fullName.vb: A.E.New()
+  nameWithType: E.E()
+  nameWithType.vb: E.New()
+- uid: A.E.#ctor(System.Single,System.Single,System.Single)
+  name: E(float, float, float)
+  href: api/A.E.html#A_E__ctor_System_Single_System_Single_System_Single_
+  commentId: M:A.E.#ctor(System.Single,System.Single,System.Single)
+  name.vb: New(Single, Single, Single)
+  fullName: A.E.E(float, float, float)
+  fullName.vb: A.E.New(Single, Single, Single)
+  nameWithType: E.E(float, float, float)
+  nameWithType.vb: E.New(Single, Single, Single)
+- uid: A.E.#ctor*
+  name: E
+  href: api/A.E.html#A_E__ctor_
+  commentId: Overload:A.E.#ctor
+  name.vb: New
+  fullName: A.E.E
+  fullName.vb: A.E.New
+  nameWithType: E.E
+  nameWithType.vb: E.New
+- uid: A.E.A
+  name: A()
+  href: api/A.E.html#A_E_A
+  commentId: M:A.E.A
+  fullName: A.E.A()
+  nameWithType: E.A()
+- uid: A.E.A(LiveScope.STL.Vertex)
+  name: A(Vertex)
+  href: api/A.E.html#A_E_A_LiveScope_STL_Vertex_
+  commentId: M:A.E.A(LiveScope.STL.Vertex)
+  fullName: A.E.A(LiveScope.STL.Vertex)
+  nameWithType: E.A(Vertex)
+- uid: A.E.A(System.IO.BinaryReader)
+  name: A(BinaryReader)
+  href: api/A.E.html#A_E_A_System_IO_BinaryReader_
+  commentId: M:A.E.A(System.IO.BinaryReader)
+  fullName: A.E.A(System.IO.BinaryReader)
+  nameWithType: E.A(BinaryReader)
+- uid: A.E.A(System.IO.StreamReader)
+  name: A(StreamReader)
+  href: api/A.E.html#A_E_A_System_IO_StreamReader_
+  commentId: M:A.E.A(System.IO.StreamReader)
+  fullName: A.E.A(System.IO.StreamReader)
+  nameWithType: E.A(StreamReader)
+- uid: A.E.A*
+  name: A
+  href: api/A.E.html#A_E_A_
+  commentId: Overload:A.E.A
+  fullName: A.E.A
+  nameWithType: E.A
+- uid: A.E.ToString
+  name: ToString()
+  href: api/A.E.html#A_E_ToString
+  commentId: M:A.E.ToString
+  fullName: A.E.ToString()
+  nameWithType: E.ToString()
+- uid: A.E.ToString*
+  name: ToString
+  href: api/A.E.html#A_E_ToString_
+  commentId: Overload:A.E.ToString
+  fullName: A.E.ToString
+  nameWithType: E.ToString
 - uid: LiveScope.Avalonia
   name: LiveScope.Avalonia
   href: api/LiveScope.Avalonia.html
@@ -784,42 +949,42 @@ references:
   fullName.vb: LiveScope.Avalonia.LiveScopeMacOsControl.New
   nameWithType: LiveScopeMacOsControl.LiveScopeMacOsControl
   nameWithType.vb: LiveScopeMacOsControl.New
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.ActiveSeriesId
-  name: ActiveSeriesId
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_ActiveSeriesId
-  commentId: P:LiveScope.Avalonia.LiveScopeMacOsControl.ActiveSeriesId
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.ActiveSeriesId
-  nameWithType: LiveScopeMacOsControl.ActiveSeriesId
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.ActiveSeriesId*
-  name: ActiveSeriesId
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_ActiveSeriesId_
-  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.ActiveSeriesId
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.ActiveSeriesId
-  nameWithType: LiveScopeMacOsControl.ActiveSeriesId
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.ActiveSeriesIdProperty
-  name: ActiveSeriesIdProperty
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_ActiveSeriesIdProperty
-  commentId: F:LiveScope.Avalonia.LiveScopeMacOsControl.ActiveSeriesIdProperty
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.ActiveSeriesIdProperty
-  nameWithType: LiveScopeMacOsControl.ActiveSeriesIdProperty
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.ActiveSeriesIndex
-  name: ActiveSeriesIndex
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_ActiveSeriesIndex
-  commentId: P:LiveScope.Avalonia.LiveScopeMacOsControl.ActiveSeriesIndex
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.ActiveSeriesIndex
-  nameWithType: LiveScopeMacOsControl.ActiveSeriesIndex
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.ActiveSeriesIndex*
-  name: ActiveSeriesIndex
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_ActiveSeriesIndex_
-  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.ActiveSeriesIndex
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.ActiveSeriesIndex
-  nameWithType: LiveScopeMacOsControl.ActiveSeriesIndex
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.ActiveSeriesIndexProperty
-  name: ActiveSeriesIndexProperty
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_ActiveSeriesIndexProperty
-  commentId: F:LiveScope.Avalonia.LiveScopeMacOsControl.ActiveSeriesIndexProperty
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.ActiveSeriesIndexProperty
-  nameWithType: LiveScopeMacOsControl.ActiveSeriesIndexProperty
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.A
+  name: A
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_A
+  commentId: F:LiveScope.Avalonia.LiveScopeMacOsControl.A
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.A
+  nameWithType: LiveScopeMacOsControl.A
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.A(Avalonia.Media.ISolidColorBrush)
+  name: A(ISolidColorBrush)
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_A_Avalonia_Media_ISolidColorBrush_
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.A(Avalonia.Media.ISolidColorBrush)
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.A(Avalonia.Media.ISolidColorBrush)
+  nameWithType: LiveScopeMacOsControl.A(ISolidColorBrush)
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.A(System.Boolean)
+  name: A(bool)
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_A_System_Boolean_
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.A(System.Boolean)
+  name.vb: A(Boolean)
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.A(bool)
+  fullName.vb: LiveScope.Avalonia.LiveScopeMacOsControl.A(Boolean)
+  nameWithType: LiveScopeMacOsControl.A(bool)
+  nameWithType.vb: LiveScopeMacOsControl.A(Boolean)
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.A(System.Double)
+  name: A(double)
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_A_System_Double_
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.A(System.Double)
+  name.vb: A(Double)
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.A(double)
+  fullName.vb: LiveScope.Avalonia.LiveScopeMacOsControl.A(Double)
+  nameWithType: LiveScopeMacOsControl.A(double)
+  nameWithType.vb: LiveScopeMacOsControl.A(Double)
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.A*
+  name: A
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_A_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.A
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.A
+  nameWithType: LiveScopeMacOsControl.A
 - uid: LiveScope.Avalonia.LiveScopeMacOsControl.AddSeries(LiveScope.Net.IDataCapture,LiveScope.Net.SeriesColor,System.Nullable{System.Double})
   name: AddSeries(IDataCapture, SeriesColor?, double?)
   href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_AddSeries_LiveScope_Net_IDataCapture_LiveScope_Net_SeriesColor_System_Nullable_System_Double__
@@ -835,90 +1000,72 @@ references:
   commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.AddSeries
   fullName: LiveScope.Avalonia.LiveScopeMacOsControl.AddSeries
   nameWithType: LiveScopeMacOsControl.AddSeries
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.BackgroundColor
-  name: BackgroundColor
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_BackgroundColor
-  commentId: P:LiveScope.Avalonia.LiveScopeMacOsControl.BackgroundColor
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.BackgroundColor
-  nameWithType: LiveScopeMacOsControl.BackgroundColor
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.BackgroundColor*
-  name: BackgroundColor
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_BackgroundColor_
-  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.BackgroundColor
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.BackgroundColor
-  nameWithType: LiveScopeMacOsControl.BackgroundColor
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.BackgroundColorProperty
-  name: BackgroundColorProperty
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_BackgroundColorProperty
-  commentId: F:LiveScope.Avalonia.LiveScopeMacOsControl.BackgroundColorProperty
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.BackgroundColorProperty
-  nameWithType: LiveScopeMacOsControl.BackgroundColorProperty
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.Colors
-  name: Colors
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_Colors
-  commentId: P:LiveScope.Avalonia.LiveScopeMacOsControl.Colors
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.Colors
-  nameWithType: LiveScopeMacOsControl.Colors
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.Colors*
-  name: Colors
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_Colors_
-  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.Colors
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.Colors
-  nameWithType: LiveScopeMacOsControl.Colors
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.CursorColor
-  name: CursorColor
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_CursorColor
-  commentId: P:LiveScope.Avalonia.LiveScopeMacOsControl.CursorColor
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.CursorColor
-  nameWithType: LiveScopeMacOsControl.CursorColor
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.CursorColor*
-  name: CursorColor
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_CursorColor_
-  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.CursorColor
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.CursorColor
-  nameWithType: LiveScopeMacOsControl.CursorColor
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.CursorColorProperty
-  name: CursorColorProperty
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_CursorColorProperty
-  commentId: F:LiveScope.Avalonia.LiveScopeMacOsControl.CursorColorProperty
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.CursorColorProperty
-  nameWithType: LiveScopeMacOsControl.CursorColorProperty
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.CursorValue
-  name: CursorValue
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_CursorValue
-  commentId: P:LiveScope.Avalonia.LiveScopeMacOsControl.CursorValue
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.CursorValue
-  nameWithType: LiveScopeMacOsControl.CursorValue
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.CursorValue*
-  name: CursorValue
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_CursorValue_
-  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.CursorValue
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.CursorValue
-  nameWithType: LiveScopeMacOsControl.CursorValue
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.CursorValueProperty
-  name: CursorValueProperty
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_CursorValueProperty
-  commentId: F:LiveScope.Avalonia.LiveScopeMacOsControl.CursorValueProperty
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.CursorValueProperty
-  nameWithType: LiveScopeMacOsControl.CursorValueProperty
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.DefaultSeriesColor
-  name: DefaultSeriesColor
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_DefaultSeriesColor
-  commentId: P:LiveScope.Avalonia.LiveScopeMacOsControl.DefaultSeriesColor
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.DefaultSeriesColor
-  nameWithType: LiveScopeMacOsControl.DefaultSeriesColor
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.DefaultSeriesColor*
-  name: DefaultSeriesColor
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_DefaultSeriesColor_
-  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.DefaultSeriesColor
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.DefaultSeriesColor
-  nameWithType: LiveScopeMacOsControl.DefaultSeriesColor
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.DefaultSeriesColorProperty
-  name: DefaultSeriesColorProperty
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_DefaultSeriesColorProperty
-  commentId: F:LiveScope.Avalonia.LiveScopeMacOsControl.DefaultSeriesColorProperty
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.DefaultSeriesColorProperty
-  nameWithType: LiveScopeMacOsControl.DefaultSeriesColorProperty
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.B
+  name: B
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_B
+  commentId: F:LiveScope.Avalonia.LiveScopeMacOsControl.B
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.B
+  nameWithType: LiveScopeMacOsControl.B
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.B(Avalonia.Media.ISolidColorBrush)
+  name: B(ISolidColorBrush)
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_B_Avalonia_Media_ISolidColorBrush_
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.B(Avalonia.Media.ISolidColorBrush)
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.B(Avalonia.Media.ISolidColorBrush)
+  nameWithType: LiveScopeMacOsControl.B(ISolidColorBrush)
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.B*
+  name: B
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_B_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.B
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.B
+  nameWithType: LiveScopeMacOsControl.B
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.C
+  name: C
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_C
+  commentId: F:LiveScope.Avalonia.LiveScopeMacOsControl.C
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.C
+  nameWithType: LiveScopeMacOsControl.C
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.C(Avalonia.Media.ISolidColorBrush)
+  name: C(ISolidColorBrush)
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_C_Avalonia_Media_ISolidColorBrush_
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.C(Avalonia.Media.ISolidColorBrush)
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.C(Avalonia.Media.ISolidColorBrush)
+  nameWithType: LiveScopeMacOsControl.C(ISolidColorBrush)
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.C*
+  name: C
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_C_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.C
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.C
+  nameWithType: LiveScopeMacOsControl.C
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.D
+  name: D
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_D
+  commentId: F:LiveScope.Avalonia.LiveScopeMacOsControl.D
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.D
+  nameWithType: LiveScopeMacOsControl.D
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.D(Avalonia.Media.ISolidColorBrush)
+  name: D(ISolidColorBrush)
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_D_Avalonia_Media_ISolidColorBrush_
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.D(Avalonia.Media.ISolidColorBrush)
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.D(Avalonia.Media.ISolidColorBrush)
+  nameWithType: LiveScopeMacOsControl.D(ISolidColorBrush)
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.D*
+  name: D
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_D_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.D
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.D
+  nameWithType: LiveScopeMacOsControl.D
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.E
+  name: E()
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_E
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.E
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.E()
+  nameWithType: LiveScopeMacOsControl.E()
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.E*
+  name: E
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_E_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.E
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.E
+  nameWithType: LiveScopeMacOsControl.E
 - uid: LiveScope.Avalonia.LiveScopeMacOsControl.EnableAutoscale(System.Nullable{System.UInt32},System.Boolean)
   name: EnableAutoscale(uint?, bool)
   href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_EnableAutoscale_System_Nullable_System_UInt32__System_Boolean_
@@ -934,24 +1081,6 @@ references:
   commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.EnableAutoscale
   fullName: LiveScope.Avalonia.LiveScopeMacOsControl.EnableAutoscale
   nameWithType: LiveScopeMacOsControl.EnableAutoscale
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.EnableCursorLock
-  name: EnableCursorLock
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_EnableCursorLock
-  commentId: P:LiveScope.Avalonia.LiveScopeMacOsControl.EnableCursorLock
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.EnableCursorLock
-  nameWithType: LiveScopeMacOsControl.EnableCursorLock
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.EnableCursorLock*
-  name: EnableCursorLock
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_EnableCursorLock_
-  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.EnableCursorLock
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.EnableCursorLock
-  nameWithType: LiveScopeMacOsControl.EnableCursorLock
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.EnableCursorLockProperty
-  name: EnableCursorLockProperty
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_EnableCursorLockProperty
-  commentId: F:LiveScope.Avalonia.LiveScopeMacOsControl.EnableCursorLockProperty
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.EnableCursorLockProperty
-  nameWithType: LiveScopeMacOsControl.EnableCursorLockProperty
 - uid: LiveScope.Avalonia.LiveScopeMacOsControl.EnableEvents(System.Nullable{System.UInt32},System.Boolean)
   name: EnableEvents(uint?, bool)
   href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_EnableEvents_System_Nullable_System_UInt32__System_Boolean_
@@ -982,24 +1111,6 @@ references:
   commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.GetSeriesData
   fullName: LiveScope.Avalonia.LiveScopeMacOsControl.GetSeriesData
   nameWithType: LiveScopeMacOsControl.GetSeriesData
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.GridColor
-  name: GridColor
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_GridColor
-  commentId: P:LiveScope.Avalonia.LiveScopeMacOsControl.GridColor
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.GridColor
-  nameWithType: LiveScopeMacOsControl.GridColor
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.GridColor*
-  name: GridColor
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_GridColor_
-  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.GridColor
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.GridColor
-  nameWithType: LiveScopeMacOsControl.GridColor
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.GridColorProperty
-  name: GridColorProperty
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_GridColorProperty
-  commentId: F:LiveScope.Avalonia.LiveScopeMacOsControl.GridColorProperty
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.GridColorProperty
-  nameWithType: LiveScopeMacOsControl.GridColorProperty
 - uid: LiveScope.Avalonia.LiveScopeMacOsControl.HitTest(Avalonia.Point)
   name: HitTest(Point)
   href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_HitTest_Avalonia_Point_
@@ -1012,42 +1123,6 @@ references:
   commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.HitTest
   fullName: LiveScope.Avalonia.LiveScopeMacOsControl.HitTest
   nameWithType: LiveScopeMacOsControl.HitTest
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.Item(System.UInt32)
-  name: this[uint]
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_Item_System_UInt32_
-  commentId: P:LiveScope.Avalonia.LiveScopeMacOsControl.Item(System.UInt32)
-  name.vb: this[](UInteger)
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.this[uint]
-  fullName.vb: LiveScope.Avalonia.LiveScopeMacOsControl.this[](UInteger)
-  nameWithType: LiveScopeMacOsControl.this[uint]
-  nameWithType.vb: LiveScopeMacOsControl.this[](UInteger)
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.Item*
-  name: this
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_Item_
-  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.Item
-  name.vb: this[]
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.this
-  fullName.vb: LiveScope.Avalonia.LiveScopeMacOsControl.this[]
-  nameWithType: LiveScopeMacOsControl.this
-  nameWithType.vb: LiveScopeMacOsControl.this[]
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.MaxCursorValue
-  name: MaxCursorValue
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_MaxCursorValue
-  commentId: P:LiveScope.Avalonia.LiveScopeMacOsControl.MaxCursorValue
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.MaxCursorValue
-  nameWithType: LiveScopeMacOsControl.MaxCursorValue
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.MaxCursorValue*
-  name: MaxCursorValue
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_MaxCursorValue_
-  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.MaxCursorValue
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.MaxCursorValue
-  nameWithType: LiveScopeMacOsControl.MaxCursorValue
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.MaxCursorValueProperty
-  name: MaxCursorValueProperty
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_MaxCursorValueProperty
-  commentId: F:LiveScope.Avalonia.LiveScopeMacOsControl.MaxCursorValueProperty
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.MaxCursorValueProperty
-  nameWithType: LiveScopeMacOsControl.MaxCursorValueProperty
 - uid: LiveScope.Avalonia.LiveScopeMacOsControl.OnDetachedFromVisualTree(Avalonia.VisualTreeAttachmentEventArgs)
   name: OnDetachedFromVisualTree(VisualTreeAttachmentEventArgs)
   href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_OnDetachedFromVisualTree_Avalonia_VisualTreeAttachmentEventArgs_
@@ -1195,210 +1270,378 @@ references:
   commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.SaveSeriesDataAs
   fullName: LiveScope.Avalonia.LiveScopeMacOsControl.SaveSeriesDataAs
   nameWithType: LiveScopeMacOsControl.SaveSeriesDataAs
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.Series
-  name: Series
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_Series
-  commentId: P:LiveScope.Avalonia.LiveScopeMacOsControl.Series
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.Series
-  nameWithType: LiveScopeMacOsControl.Series
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.Series*
-  name: Series
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_Series_
-  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.Series
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.Series
-  nameWithType: LiveScopeMacOsControl.Series
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.SeriesContentProperty
-  name: SeriesContentProperty
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_SeriesContentProperty
-  commentId: F:LiveScope.Avalonia.LiveScopeMacOsControl.SeriesContentProperty
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.SeriesContentProperty
-  nameWithType: LiveScopeMacOsControl.SeriesContentProperty
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.SeriesLayout
-  name: SeriesLayout
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_SeriesLayout
-  commentId: P:LiveScope.Avalonia.LiveScopeMacOsControl.SeriesLayout
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.SeriesLayout
-  nameWithType: LiveScopeMacOsControl.SeriesLayout
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.SeriesLayout*
-  name: SeriesLayout
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_SeriesLayout_
-  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.SeriesLayout
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.SeriesLayout
-  nameWithType: LiveScopeMacOsControl.SeriesLayout
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.SeriesLayoutProperty
-  name: SeriesLayoutProperty
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_SeriesLayoutProperty
-  commentId: F:LiveScope.Avalonia.LiveScopeMacOsControl.SeriesLayoutProperty
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.SeriesLayoutProperty
-  nameWithType: LiveScopeMacOsControl.SeriesLayoutProperty
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.SeriesProperty
-  name: SeriesProperty
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_SeriesProperty
-  commentId: F:LiveScope.Avalonia.LiveScopeMacOsControl.SeriesProperty
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.SeriesProperty
-  nameWithType: LiveScopeMacOsControl.SeriesProperty
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.TextColor
-  name: TextColor
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_TextColor
-  commentId: P:LiveScope.Avalonia.LiveScopeMacOsControl.TextColor
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.TextColor
-  nameWithType: LiveScopeMacOsControl.TextColor
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.TextColor*
-  name: TextColor
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_TextColor_
-  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.TextColor
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.TextColor
-  nameWithType: LiveScopeMacOsControl.TextColor
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.TextColorProperty
-  name: TextColorProperty
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_TextColorProperty
-  commentId: F:LiveScope.Avalonia.LiveScopeMacOsControl.TextColorProperty
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.TextColorProperty
-  nameWithType: LiveScopeMacOsControl.TextColorProperty
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.TimeLength
-  name: TimeLength
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_TimeLength
-  commentId: P:LiveScope.Avalonia.LiveScopeMacOsControl.TimeLength
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.TimeLength
-  nameWithType: LiveScopeMacOsControl.TimeLength
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.TimeLength*
-  name: TimeLength
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_TimeLength_
-  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.TimeLength
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.TimeLength
-  nameWithType: LiveScopeMacOsControl.TimeLength
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.TimeLengthProperty
-  name: TimeLengthProperty
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_TimeLengthProperty
-  commentId: F:LiveScope.Avalonia.LiveScopeMacOsControl.TimeLengthProperty
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.TimeLengthProperty
-  nameWithType: LiveScopeMacOsControl.TimeLengthProperty
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.UpdateData
-  name: UpdateData
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_UpdateData
-  commentId: P:LiveScope.Avalonia.LiveScopeMacOsControl.UpdateData
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.UpdateData
-  nameWithType: LiveScopeMacOsControl.UpdateData
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.UpdateData*
-  name: UpdateData
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_UpdateData_
-  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.UpdateData
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.UpdateData
-  nameWithType: LiveScopeMacOsControl.UpdateData
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.UpdateDataProperty
-  name: UpdateDataProperty
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_UpdateDataProperty
-  commentId: F:LiveScope.Avalonia.LiveScopeMacOsControl.UpdateDataProperty
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.UpdateDataProperty
-  nameWithType: LiveScopeMacOsControl.UpdateDataProperty
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.XAxisColor
-  name: XAxisColor
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_XAxisColor
-  commentId: P:LiveScope.Avalonia.LiveScopeMacOsControl.XAxisColor
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.XAxisColor
-  nameWithType: LiveScopeMacOsControl.XAxisColor
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.XAxisColor*
-  name: XAxisColor
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_XAxisColor_
-  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.XAxisColor
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.XAxisColor
-  nameWithType: LiveScopeMacOsControl.XAxisColor
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.XAxisColorProperty
-  name: XAxisColorProperty
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_XAxisColorProperty
-  commentId: F:LiveScope.Avalonia.LiveScopeMacOsControl.XAxisColorProperty
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.XAxisColorProperty
-  nameWithType: LiveScopeMacOsControl.XAxisColorProperty
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.XMax
-  name: XMax
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_XMax
-  commentId: P:LiveScope.Avalonia.LiveScopeMacOsControl.XMax
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.XMax
-  nameWithType: LiveScopeMacOsControl.XMax
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.XMax*
-  name: XMax
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_XMax_
-  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.XMax
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.XMax
-  nameWithType: LiveScopeMacOsControl.XMax
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.XMaxProperty
-  name: XMaxProperty
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_XMaxProperty
-  commentId: F:LiveScope.Avalonia.LiveScopeMacOsControl.XMaxProperty
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.XMaxProperty
-  nameWithType: LiveScopeMacOsControl.XMaxProperty
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.XMin
-  name: XMin
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_XMin
-  commentId: P:LiveScope.Avalonia.LiveScopeMacOsControl.XMin
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.XMin
-  nameWithType: LiveScopeMacOsControl.XMin
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.XMin*
-  name: XMin
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_XMin_
-  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.XMin
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.XMin
-  nameWithType: LiveScopeMacOsControl.XMin
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.XMinProperty
-  name: XMinProperty
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_XMinProperty
-  commentId: F:LiveScope.Avalonia.LiveScopeMacOsControl.XMinProperty
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.XMinProperty
-  nameWithType: LiveScopeMacOsControl.XMinProperty
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.YAxisColor
-  name: YAxisColor
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_YAxisColor
-  commentId: P:LiveScope.Avalonia.LiveScopeMacOsControl.YAxisColor
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.YAxisColor
-  nameWithType: LiveScopeMacOsControl.YAxisColor
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.YAxisColor*
-  name: YAxisColor
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_YAxisColor_
-  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.YAxisColor
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.YAxisColor
-  nameWithType: LiveScopeMacOsControl.YAxisColor
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.YAxisColorProperty
-  name: YAxisColorProperty
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_YAxisColorProperty
-  commentId: F:LiveScope.Avalonia.LiveScopeMacOsControl.YAxisColorProperty
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.YAxisColorProperty
-  nameWithType: LiveScopeMacOsControl.YAxisColorProperty
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.YMax
-  name: YMax
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_YMax
-  commentId: P:LiveScope.Avalonia.LiveScopeMacOsControl.YMax
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.YMax
-  nameWithType: LiveScopeMacOsControl.YMax
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.YMax*
-  name: YMax
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_YMax_
-  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.YMax
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.YMax
-  nameWithType: LiveScopeMacOsControl.YMax
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.YMaxProperty
-  name: YMaxProperty
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_YMaxProperty
-  commentId: F:LiveScope.Avalonia.LiveScopeMacOsControl.YMaxProperty
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.YMaxProperty
-  nameWithType: LiveScopeMacOsControl.YMaxProperty
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.YMin
-  name: YMin
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_YMin
-  commentId: P:LiveScope.Avalonia.LiveScopeMacOsControl.YMin
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.YMin
-  nameWithType: LiveScopeMacOsControl.YMin
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.YMin*
-  name: YMin
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_YMin_
-  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.YMin
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.YMin
-  nameWithType: LiveScopeMacOsControl.YMin
-- uid: LiveScope.Avalonia.LiveScopeMacOsControl.YMinProperty
-  name: YMinProperty
-  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_YMinProperty
-  commentId: F:LiveScope.Avalonia.LiveScopeMacOsControl.YMinProperty
-  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.YMinProperty
-  nameWithType: LiveScopeMacOsControl.YMinProperty
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.a
+  name: a
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_a
+  commentId: F:LiveScope.Avalonia.LiveScopeMacOsControl.a
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.a
+  nameWithType: LiveScopeMacOsControl.a
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.a(Avalonia.Media.ISolidColorBrush)
+  name: a(ISolidColorBrush)
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_a_Avalonia_Media_ISolidColorBrush_
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.a(Avalonia.Media.ISolidColorBrush)
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.a(Avalonia.Media.ISolidColorBrush)
+  nameWithType: LiveScopeMacOsControl.a(ISolidColorBrush)
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.a(System.Double)
+  name: a(double)
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_a_System_Double_
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.a(System.Double)
+  name.vb: a(Double)
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.a(double)
+  fullName.vb: LiveScope.Avalonia.LiveScopeMacOsControl.a(Double)
+  nameWithType: LiveScopeMacOsControl.a(double)
+  nameWithType.vb: LiveScopeMacOsControl.a(Double)
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.a*
+  name: a
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_a_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.a
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.a
+  nameWithType: LiveScopeMacOsControl.a
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.b
+  name: b
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_b
+  commentId: F:LiveScope.Avalonia.LiveScopeMacOsControl.b
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.b
+  nameWithType: LiveScopeMacOsControl.b
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.b(Avalonia.Media.ISolidColorBrush)
+  name: b(ISolidColorBrush)
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_b_Avalonia_Media_ISolidColorBrush_
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.b(Avalonia.Media.ISolidColorBrush)
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.b(Avalonia.Media.ISolidColorBrush)
+  nameWithType: LiveScopeMacOsControl.b(ISolidColorBrush)
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.b*
+  name: b
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_b_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.b
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.b
+  nameWithType: LiveScopeMacOsControl.b
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.c
+  name: c
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_c
+  commentId: F:LiveScope.Avalonia.LiveScopeMacOsControl.c
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.c
+  nameWithType: LiveScopeMacOsControl.c
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.c(Avalonia.Media.ISolidColorBrush)
+  name: c(ISolidColorBrush)
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_c_Avalonia_Media_ISolidColorBrush_
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.c(Avalonia.Media.ISolidColorBrush)
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.c(Avalonia.Media.ISolidColorBrush)
+  nameWithType: LiveScopeMacOsControl.c(ISolidColorBrush)
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.c*
+  name: c
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_c_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.c
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.c
+  nameWithType: LiveScopeMacOsControl.c
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.d
+  name: d()
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_d
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.d
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.d()
+  nameWithType: LiveScopeMacOsControl.d()
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.d*
+  name: d
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_d_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.d
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.d
+  nameWithType: LiveScopeMacOsControl.d
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.get_ActiveSeriesId
+  name: get_ActiveSeriesId()
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_get_ActiveSeriesId
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.get_ActiveSeriesId
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.get_ActiveSeriesId()
+  nameWithType: LiveScopeMacOsControl.get_ActiveSeriesId()
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.get_ActiveSeriesId*
+  name: get_ActiveSeriesId
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_get_ActiveSeriesId_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.get_ActiveSeriesId
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.get_ActiveSeriesId
+  nameWithType: LiveScopeMacOsControl.get_ActiveSeriesId
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.get_ActiveSeriesIndex
+  name: get_ActiveSeriesIndex()
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_get_ActiveSeriesIndex
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.get_ActiveSeriesIndex
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.get_ActiveSeriesIndex()
+  nameWithType: LiveScopeMacOsControl.get_ActiveSeriesIndex()
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.get_ActiveSeriesIndex*
+  name: get_ActiveSeriesIndex
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_get_ActiveSeriesIndex_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.get_ActiveSeriesIndex
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.get_ActiveSeriesIndex
+  nameWithType: LiveScopeMacOsControl.get_ActiveSeriesIndex
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.get_Colors
+  name: get_Colors()
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_get_Colors
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.get_Colors
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.get_Colors()
+  nameWithType: LiveScopeMacOsControl.get_Colors()
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.get_Colors*
+  name: get_Colors
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_get_Colors_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.get_Colors
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.get_Colors
+  nameWithType: LiveScopeMacOsControl.get_Colors
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.get_CursorValue
+  name: get_CursorValue()
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_get_CursorValue
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.get_CursorValue
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.get_CursorValue()
+  nameWithType: LiveScopeMacOsControl.get_CursorValue()
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.get_CursorValue*
+  name: get_CursorValue
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_get_CursorValue_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.get_CursorValue
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.get_CursorValue
+  nameWithType: LiveScopeMacOsControl.get_CursorValue
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.get_EnableCursorLock
+  name: get_EnableCursorLock()
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_get_EnableCursorLock
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.get_EnableCursorLock
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.get_EnableCursorLock()
+  nameWithType: LiveScopeMacOsControl.get_EnableCursorLock()
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.get_EnableCursorLock*
+  name: get_EnableCursorLock
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_get_EnableCursorLock_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.get_EnableCursorLock
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.get_EnableCursorLock
+  nameWithType: LiveScopeMacOsControl.get_EnableCursorLock
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.get_Item(System.UInt32)
+  name: get_Item(uint)
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_get_Item_System_UInt32_
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.get_Item(System.UInt32)
+  name.vb: get_Item(UInteger)
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.get_Item(uint)
+  fullName.vb: LiveScope.Avalonia.LiveScopeMacOsControl.get_Item(UInteger)
+  nameWithType: LiveScopeMacOsControl.get_Item(uint)
+  nameWithType.vb: LiveScopeMacOsControl.get_Item(UInteger)
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.get_Item*
+  name: get_Item
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_get_Item_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.get_Item
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.get_Item
+  nameWithType: LiveScopeMacOsControl.get_Item
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.get_MaxCursorValue
+  name: get_MaxCursorValue()
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_get_MaxCursorValue
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.get_MaxCursorValue
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.get_MaxCursorValue()
+  nameWithType: LiveScopeMacOsControl.get_MaxCursorValue()
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.get_MaxCursorValue*
+  name: get_MaxCursorValue
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_get_MaxCursorValue_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.get_MaxCursorValue
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.get_MaxCursorValue
+  nameWithType: LiveScopeMacOsControl.get_MaxCursorValue
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.get_Series
+  name: get_Series()
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_get_Series
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.get_Series
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.get_Series()
+  nameWithType: LiveScopeMacOsControl.get_Series()
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.get_Series*
+  name: get_Series
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_get_Series_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.get_Series
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.get_Series
+  nameWithType: LiveScopeMacOsControl.get_Series
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.get_SeriesLayout
+  name: get_SeriesLayout()
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_get_SeriesLayout
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.get_SeriesLayout
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.get_SeriesLayout()
+  nameWithType: LiveScopeMacOsControl.get_SeriesLayout()
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.get_SeriesLayout*
+  name: get_SeriesLayout
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_get_SeriesLayout_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.get_SeriesLayout
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.get_SeriesLayout
+  nameWithType: LiveScopeMacOsControl.get_SeriesLayout
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.get_TimeLength
+  name: get_TimeLength()
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_get_TimeLength
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.get_TimeLength
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.get_TimeLength()
+  nameWithType: LiveScopeMacOsControl.get_TimeLength()
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.get_TimeLength*
+  name: get_TimeLength
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_get_TimeLength_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.get_TimeLength
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.get_TimeLength
+  nameWithType: LiveScopeMacOsControl.get_TimeLength
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.get_UpdateData
+  name: get_UpdateData()
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_get_UpdateData
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.get_UpdateData
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.get_UpdateData()
+  nameWithType: LiveScopeMacOsControl.get_UpdateData()
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.get_UpdateData*
+  name: get_UpdateData
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_get_UpdateData_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.get_UpdateData
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.get_UpdateData
+  nameWithType: LiveScopeMacOsControl.get_UpdateData
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.get_XMax
+  name: get_XMax()
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_get_XMax
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.get_XMax
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.get_XMax()
+  nameWithType: LiveScopeMacOsControl.get_XMax()
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.get_XMax*
+  name: get_XMax
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_get_XMax_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.get_XMax
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.get_XMax
+  nameWithType: LiveScopeMacOsControl.get_XMax
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.get_XMin
+  name: get_XMin()
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_get_XMin
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.get_XMin
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.get_XMin()
+  nameWithType: LiveScopeMacOsControl.get_XMin()
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.get_XMin*
+  name: get_XMin
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_get_XMin_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.get_XMin
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.get_XMin
+  nameWithType: LiveScopeMacOsControl.get_XMin
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.get_YMax
+  name: get_YMax()
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_get_YMax
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.get_YMax
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.get_YMax()
+  nameWithType: LiveScopeMacOsControl.get_YMax()
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.get_YMax*
+  name: get_YMax
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_get_YMax_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.get_YMax
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.get_YMax
+  nameWithType: LiveScopeMacOsControl.get_YMax
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.get_YMin
+  name: get_YMin()
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_get_YMin
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.get_YMin
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.get_YMin()
+  nameWithType: LiveScopeMacOsControl.get_YMin()
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.get_YMin*
+  name: get_YMin
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_get_YMin_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.get_YMin
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.get_YMin
+  nameWithType: LiveScopeMacOsControl.get_YMin
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.set_ActiveSeriesId(System.UInt32)
+  name: set_ActiveSeriesId(uint)
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_set_ActiveSeriesId_System_UInt32_
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.set_ActiveSeriesId(System.UInt32)
+  name.vb: set_ActiveSeriesId(UInteger)
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.set_ActiveSeriesId(uint)
+  fullName.vb: LiveScope.Avalonia.LiveScopeMacOsControl.set_ActiveSeriesId(UInteger)
+  nameWithType: LiveScopeMacOsControl.set_ActiveSeriesId(uint)
+  nameWithType.vb: LiveScopeMacOsControl.set_ActiveSeriesId(UInteger)
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.set_ActiveSeriesId*
+  name: set_ActiveSeriesId
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_set_ActiveSeriesId_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.set_ActiveSeriesId
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.set_ActiveSeriesId
+  nameWithType: LiveScopeMacOsControl.set_ActiveSeriesId
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.set_SeriesLayout(LiveScope.Net.SeriesLayoutTypes)
+  name: set_SeriesLayout(SeriesLayoutTypes)
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_set_SeriesLayout_LiveScope_Net_SeriesLayoutTypes_
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.set_SeriesLayout(LiveScope.Net.SeriesLayoutTypes)
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.set_SeriesLayout(LiveScope.Net.SeriesLayoutTypes)
+  nameWithType: LiveScopeMacOsControl.set_SeriesLayout(SeriesLayoutTypes)
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.set_SeriesLayout*
+  name: set_SeriesLayout
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_set_SeriesLayout_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.set_SeriesLayout
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.set_SeriesLayout
+  nameWithType: LiveScopeMacOsControl.set_SeriesLayout
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.set_TimeLength(System.Double)
+  name: set_TimeLength(double)
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_set_TimeLength_System_Double_
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.set_TimeLength(System.Double)
+  name.vb: set_TimeLength(Double)
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.set_TimeLength(double)
+  fullName.vb: LiveScope.Avalonia.LiveScopeMacOsControl.set_TimeLength(Double)
+  nameWithType: LiveScopeMacOsControl.set_TimeLength(double)
+  nameWithType.vb: LiveScopeMacOsControl.set_TimeLength(Double)
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.set_TimeLength*
+  name: set_TimeLength
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_set_TimeLength_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.set_TimeLength
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.set_TimeLength
+  nameWithType: LiveScopeMacOsControl.set_TimeLength
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.set_UpdateData(LiveScope.Net.DataUpdateTypes)
+  name: set_UpdateData(DataUpdateTypes)
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_set_UpdateData_LiveScope_Net_DataUpdateTypes_
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.set_UpdateData(LiveScope.Net.DataUpdateTypes)
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.set_UpdateData(LiveScope.Net.DataUpdateTypes)
+  nameWithType: LiveScopeMacOsControl.set_UpdateData(DataUpdateTypes)
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.set_UpdateData*
+  name: set_UpdateData
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_set_UpdateData_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.set_UpdateData
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.set_UpdateData
+  nameWithType: LiveScopeMacOsControl.set_UpdateData
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.set_XMax(System.Double)
+  name: set_XMax(double)
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_set_XMax_System_Double_
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.set_XMax(System.Double)
+  name.vb: set_XMax(Double)
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.set_XMax(double)
+  fullName.vb: LiveScope.Avalonia.LiveScopeMacOsControl.set_XMax(Double)
+  nameWithType: LiveScopeMacOsControl.set_XMax(double)
+  nameWithType.vb: LiveScopeMacOsControl.set_XMax(Double)
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.set_XMax*
+  name: set_XMax
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_set_XMax_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.set_XMax
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.set_XMax
+  nameWithType: LiveScopeMacOsControl.set_XMax
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.set_XMin(System.Double)
+  name: set_XMin(double)
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_set_XMin_System_Double_
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.set_XMin(System.Double)
+  name.vb: set_XMin(Double)
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.set_XMin(double)
+  fullName.vb: LiveScope.Avalonia.LiveScopeMacOsControl.set_XMin(Double)
+  nameWithType: LiveScopeMacOsControl.set_XMin(double)
+  nameWithType.vb: LiveScopeMacOsControl.set_XMin(Double)
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.set_XMin*
+  name: set_XMin
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_set_XMin_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.set_XMin
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.set_XMin
+  nameWithType: LiveScopeMacOsControl.set_XMin
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.set_YMax(System.Double)
+  name: set_YMax(double)
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_set_YMax_System_Double_
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.set_YMax(System.Double)
+  name.vb: set_YMax(Double)
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.set_YMax(double)
+  fullName.vb: LiveScope.Avalonia.LiveScopeMacOsControl.set_YMax(Double)
+  nameWithType: LiveScopeMacOsControl.set_YMax(double)
+  nameWithType.vb: LiveScopeMacOsControl.set_YMax(Double)
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.set_YMax*
+  name: set_YMax
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_set_YMax_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.set_YMax
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.set_YMax
+  nameWithType: LiveScopeMacOsControl.set_YMax
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.set_YMin(System.Double)
+  name: set_YMin(double)
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_set_YMin_System_Double_
+  commentId: M:LiveScope.Avalonia.LiveScopeMacOsControl.set_YMin(System.Double)
+  name.vb: set_YMin(Double)
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.set_YMin(double)
+  fullName.vb: LiveScope.Avalonia.LiveScopeMacOsControl.set_YMin(Double)
+  nameWithType: LiveScopeMacOsControl.set_YMin(double)
+  nameWithType.vb: LiveScopeMacOsControl.set_YMin(Double)
+- uid: LiveScope.Avalonia.LiveScopeMacOsControl.set_YMin*
+  name: set_YMin
+  href: api/LiveScope.Avalonia.LiveScopeMacOsControl.html#LiveScope_Avalonia_LiveScopeMacOsControl_set_YMin_
+  commentId: Overload:LiveScope.Avalonia.LiveScopeMacOsControl.set_YMin
+  fullName: LiveScope.Avalonia.LiveScopeMacOsControl.set_YMin
+  nameWithType: LiveScopeMacOsControl.set_YMin
 - uid: LiveScope.Avalonia.STLControl
   name: STLControl
   href: api/LiveScope.Avalonia.STLControl.html
@@ -4745,114 +4988,6 @@ references:
   commentId: N:LiveScope.STL
   fullName: LiveScope.STL
   nameWithType: LiveScope.STL
-- uid: LiveScope.STL.Extensions
-  name: Extensions
-  href: api/LiveScope.STL.Extensions.html
-  commentId: T:LiveScope.STL.Extensions
-  fullName: LiveScope.STL.Extensions
-  nameWithType: Extensions
-- uid: LiveScope.STL.Extensions.All*
-  name: All
-  href: api/LiveScope.STL.Extensions.html#LiveScope_STL_Extensions_All_
-  commentId: Overload:LiveScope.STL.Extensions.All
-  fullName: LiveScope.STL.Extensions.All
-  nameWithType: Extensions.All
-- uid: LiveScope.STL.Extensions.All``1(System.Collections.Generic.IEnumerable{``0},System.Func{System.Int32,``0,System.Boolean})
-  name: All<T>(IEnumerable<T>, Func<int, T, bool>)
-  href: api/LiveScope.STL.Extensions.html#LiveScope_STL_Extensions_All__1_System_Collections_Generic_IEnumerable___0__System_Func_System_Int32___0_System_Boolean__
-  commentId: M:LiveScope.STL.Extensions.All``1(System.Collections.Generic.IEnumerable{``0},System.Func{System.Int32,``0,System.Boolean})
-  name.vb: All(Of T)(IEnumerable(Of T), Func(Of Integer, T, Boolean))
-  fullName: LiveScope.STL.Extensions.All<T>(System.Collections.Generic.IEnumerable<T>, System.Func<int, T, bool>)
-  fullName.vb: LiveScope.STL.Extensions.All(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of Integer, T, Boolean))
-  nameWithType: Extensions.All<T>(IEnumerable<T>, Func<int, T, bool>)
-  nameWithType.vb: Extensions.All(Of T)(IEnumerable(Of T), Func(Of Integer, T, Boolean))
-- uid: LiveScope.STL.Extensions.ForEach*
-  name: ForEach
-  href: api/LiveScope.STL.Extensions.html#LiveScope_STL_Extensions_ForEach_
-  commentId: Overload:LiveScope.STL.Extensions.ForEach
-  fullName: LiveScope.STL.Extensions.ForEach
-  nameWithType: Extensions.ForEach
-- uid: LiveScope.STL.Extensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
-  name: ForEach<T>(IEnumerable<T>, Action<T>)
-  href: api/LiveScope.STL.Extensions.html#LiveScope_STL_Extensions_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__
-  commentId: M:LiveScope.STL.Extensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
-  name.vb: ForEach(Of T)(IEnumerable(Of T), Action(Of T))
-  fullName: LiveScope.STL.Extensions.ForEach<T>(System.Collections.Generic.IEnumerable<T>, System.Action<T>)
-  fullName.vb: LiveScope.STL.Extensions.ForEach(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Action(Of T))
-  nameWithType: Extensions.ForEach<T>(IEnumerable<T>, Action<T>)
-  nameWithType.vb: Extensions.ForEach(Of T)(IEnumerable(Of T), Action(Of T))
-- uid: LiveScope.STL.Extensions.Invert(System.Collections.Generic.IEnumerable{LiveScope.STL.Facet})
-  name: Invert(IEnumerable<Facet>)
-  href: api/LiveScope.STL.Extensions.html#LiveScope_STL_Extensions_Invert_System_Collections_Generic_IEnumerable_LiveScope_STL_Facet__
-  commentId: M:LiveScope.STL.Extensions.Invert(System.Collections.Generic.IEnumerable{LiveScope.STL.Facet})
-  name.vb: Invert(IEnumerable(Of Facet))
-  fullName: LiveScope.STL.Extensions.Invert(System.Collections.Generic.IEnumerable<LiveScope.STL.Facet>)
-  fullName.vb: LiveScope.STL.Extensions.Invert(System.Collections.Generic.IEnumerable(Of LiveScope.STL.Facet))
-  nameWithType: Extensions.Invert(IEnumerable<Facet>)
-  nameWithType.vb: Extensions.Invert(IEnumerable(Of Facet))
-- uid: LiveScope.STL.Extensions.Invert*
-  name: Invert
-  href: api/LiveScope.STL.Extensions.html#LiveScope_STL_Extensions_Invert_
-  commentId: Overload:LiveScope.STL.Extensions.Invert
-  fullName: LiveScope.STL.Extensions.Invert
-  nameWithType: Extensions.Invert
-- uid: LiveScope.STL.Extensions.IsNullOrEmpty(System.String)
-  name: IsNullOrEmpty(string)
-  href: api/LiveScope.STL.Extensions.html#LiveScope_STL_Extensions_IsNullOrEmpty_System_String_
-  commentId: M:LiveScope.STL.Extensions.IsNullOrEmpty(System.String)
-  name.vb: IsNullOrEmpty(String)
-  fullName: LiveScope.STL.Extensions.IsNullOrEmpty(string)
-  fullName.vb: LiveScope.STL.Extensions.IsNullOrEmpty(String)
-  nameWithType: Extensions.IsNullOrEmpty(string)
-  nameWithType.vb: Extensions.IsNullOrEmpty(String)
-- uid: LiveScope.STL.Extensions.IsNullOrEmpty*
-  name: IsNullOrEmpty
-  href: api/LiveScope.STL.Extensions.html#LiveScope_STL_Extensions_IsNullOrEmpty_
-  commentId: Overload:LiveScope.STL.Extensions.IsNullOrEmpty
-  fullName: LiveScope.STL.Extensions.IsNullOrEmpty
-  nameWithType: Extensions.IsNullOrEmpty
-- uid: LiveScope.STL.Extensions.Shift(System.Collections.Generic.IEnumerable{LiveScope.STL.Facet},LiveScope.STL.Vertex)
-  name: Shift(IEnumerable<Facet>, Vertex)
-  href: api/LiveScope.STL.Extensions.html#LiveScope_STL_Extensions_Shift_System_Collections_Generic_IEnumerable_LiveScope_STL_Facet__LiveScope_STL_Vertex_
-  commentId: M:LiveScope.STL.Extensions.Shift(System.Collections.Generic.IEnumerable{LiveScope.STL.Facet},LiveScope.STL.Vertex)
-  name.vb: Shift(IEnumerable(Of Facet), Vertex)
-  fullName: LiveScope.STL.Extensions.Shift(System.Collections.Generic.IEnumerable<LiveScope.STL.Facet>, LiveScope.STL.Vertex)
-  fullName.vb: LiveScope.STL.Extensions.Shift(System.Collections.Generic.IEnumerable(Of LiveScope.STL.Facet), LiveScope.STL.Vertex)
-  nameWithType: Extensions.Shift(IEnumerable<Facet>, Vertex)
-  nameWithType.vb: Extensions.Shift(IEnumerable(Of Facet), Vertex)
-- uid: LiveScope.STL.Extensions.Shift(System.Collections.Generic.IEnumerable{LiveScope.STL.Facet},System.Single,System.Single,System.Single)
-  name: Shift(IEnumerable<Facet>, float, float, float)
-  href: api/LiveScope.STL.Extensions.html#LiveScope_STL_Extensions_Shift_System_Collections_Generic_IEnumerable_LiveScope_STL_Facet__System_Single_System_Single_System_Single_
-  commentId: M:LiveScope.STL.Extensions.Shift(System.Collections.Generic.IEnumerable{LiveScope.STL.Facet},System.Single,System.Single,System.Single)
-  name.vb: Shift(IEnumerable(Of Facet), Single, Single, Single)
-  fullName: LiveScope.STL.Extensions.Shift(System.Collections.Generic.IEnumerable<LiveScope.STL.Facet>, float, float, float)
-  fullName.vb: LiveScope.STL.Extensions.Shift(System.Collections.Generic.IEnumerable(Of LiveScope.STL.Facet), Single, Single, Single)
-  nameWithType: Extensions.Shift(IEnumerable<Facet>, float, float, float)
-  nameWithType.vb: Extensions.Shift(IEnumerable(Of Facet), Single, Single, Single)
-- uid: LiveScope.STL.Extensions.Shift(System.Collections.Generic.IEnumerable{LiveScope.STL.Vertex},LiveScope.STL.Vertex)
-  name: Shift(IEnumerable<Vertex>, Vertex)
-  href: api/LiveScope.STL.Extensions.html#LiveScope_STL_Extensions_Shift_System_Collections_Generic_IEnumerable_LiveScope_STL_Vertex__LiveScope_STL_Vertex_
-  commentId: M:LiveScope.STL.Extensions.Shift(System.Collections.Generic.IEnumerable{LiveScope.STL.Vertex},LiveScope.STL.Vertex)
-  name.vb: Shift(IEnumerable(Of Vertex), Vertex)
-  fullName: LiveScope.STL.Extensions.Shift(System.Collections.Generic.IEnumerable<LiveScope.STL.Vertex>, LiveScope.STL.Vertex)
-  fullName.vb: LiveScope.STL.Extensions.Shift(System.Collections.Generic.IEnumerable(Of LiveScope.STL.Vertex), LiveScope.STL.Vertex)
-  nameWithType: Extensions.Shift(IEnumerable<Vertex>, Vertex)
-  nameWithType.vb: Extensions.Shift(IEnumerable(Of Vertex), Vertex)
-- uid: LiveScope.STL.Extensions.Shift(System.Collections.Generic.IEnumerable{LiveScope.STL.Vertex},System.Single,System.Single,System.Single)
-  name: Shift(IEnumerable<Vertex>, float, float, float)
-  href: api/LiveScope.STL.Extensions.html#LiveScope_STL_Extensions_Shift_System_Collections_Generic_IEnumerable_LiveScope_STL_Vertex__System_Single_System_Single_System_Single_
-  commentId: M:LiveScope.STL.Extensions.Shift(System.Collections.Generic.IEnumerable{LiveScope.STL.Vertex},System.Single,System.Single,System.Single)
-  name.vb: Shift(IEnumerable(Of Vertex), Single, Single, Single)
-  fullName: LiveScope.STL.Extensions.Shift(System.Collections.Generic.IEnumerable<LiveScope.STL.Vertex>, float, float, float)
-  fullName.vb: LiveScope.STL.Extensions.Shift(System.Collections.Generic.IEnumerable(Of LiveScope.STL.Vertex), Single, Single, Single)
-  nameWithType: Extensions.Shift(IEnumerable<Vertex>, float, float, float)
-  nameWithType.vb: Extensions.Shift(IEnumerable(Of Vertex), Single, Single, Single)
-- uid: LiveScope.STL.Extensions.Shift*
-  name: Shift
-  href: api/LiveScope.STL.Extensions.html#LiveScope_STL_Extensions_Shift_
-  commentId: Overload:LiveScope.STL.Extensions.Shift
-  fullName: LiveScope.STL.Extensions.Shift
-  nameWithType: Extensions.Shift
 - uid: LiveScope.STL.Facet
   name: Facet
   href: api/LiveScope.STL.Facet.html
@@ -4868,15 +5003,15 @@ references:
   fullName.vb: LiveScope.STL.Facet.New()
   nameWithType: Facet.Facet()
   nameWithType.vb: Facet.New()
-- uid: LiveScope.STL.Facet.#ctor(LiveScope.STL.Normal,System.Collections.Generic.IEnumerable{LiveScope.STL.Vertex},System.UInt16)
-  name: Facet(Normal, IEnumerable<Vertex>, ushort)
-  href: api/LiveScope.STL.Facet.html#LiveScope_STL_Facet__ctor_LiveScope_STL_Normal_System_Collections_Generic_IEnumerable_LiveScope_STL_Vertex__System_UInt16_
-  commentId: M:LiveScope.STL.Facet.#ctor(LiveScope.STL.Normal,System.Collections.Generic.IEnumerable{LiveScope.STL.Vertex},System.UInt16)
-  name.vb: New(Normal, IEnumerable(Of Vertex), UShort)
-  fullName: LiveScope.STL.Facet.Facet(LiveScope.STL.Normal, System.Collections.Generic.IEnumerable<LiveScope.STL.Vertex>, ushort)
-  fullName.vb: LiveScope.STL.Facet.New(LiveScope.STL.Normal, System.Collections.Generic.IEnumerable(Of LiveScope.STL.Vertex), UShort)
-  nameWithType: Facet.Facet(Normal, IEnumerable<Vertex>, ushort)
-  nameWithType.vb: Facet.New(Normal, IEnumerable(Of Vertex), UShort)
+- uid: LiveScope.STL.Facet.#ctor(A.E,System.Collections.Generic.IEnumerable{LiveScope.STL.Vertex},System.UInt16)
+  name: Facet(E, IEnumerable<Vertex>, ushort)
+  href: api/LiveScope.STL.Facet.html#LiveScope_STL_Facet__ctor_A_E_System_Collections_Generic_IEnumerable_LiveScope_STL_Vertex__System_UInt16_
+  commentId: M:LiveScope.STL.Facet.#ctor(A.E,System.Collections.Generic.IEnumerable{LiveScope.STL.Vertex},System.UInt16)
+  name.vb: New(E, IEnumerable(Of Vertex), UShort)
+  fullName: LiveScope.STL.Facet.Facet(A.E, System.Collections.Generic.IEnumerable<LiveScope.STL.Vertex>, ushort)
+  fullName.vb: LiveScope.STL.Facet.New(A.E, System.Collections.Generic.IEnumerable(Of LiveScope.STL.Vertex), UShort)
+  nameWithType: Facet.Facet(E, IEnumerable<Vertex>, ushort)
+  nameWithType.vb: Facet.New(E, IEnumerable(Of Vertex), UShort)
 - uid: LiveScope.STL.Facet.#ctor*
   name: Facet
   href: api/LiveScope.STL.Facet.html#LiveScope_STL_Facet__ctor_
@@ -5018,93 +5153,6 @@ references:
   commentId: Overload:LiveScope.STL.Facet.Write
   fullName: LiveScope.STL.Facet.Write
   nameWithType: Facet.Write
-- uid: LiveScope.STL.Normal
-  name: Normal
-  href: api/LiveScope.STL.Normal.html
-  commentId: T:LiveScope.STL.Normal
-  fullName: LiveScope.STL.Normal
-  nameWithType: Normal
-- uid: LiveScope.STL.Normal.#ctor
-  name: Normal()
-  href: api/LiveScope.STL.Normal.html#LiveScope_STL_Normal__ctor
-  commentId: M:LiveScope.STL.Normal.#ctor
-  name.vb: New()
-  fullName: LiveScope.STL.Normal.Normal()
-  fullName.vb: LiveScope.STL.Normal.New()
-  nameWithType: Normal.Normal()
-  nameWithType.vb: Normal.New()
-- uid: LiveScope.STL.Normal.#ctor(System.Single,System.Single,System.Single)
-  name: Normal(float, float, float)
-  href: api/LiveScope.STL.Normal.html#LiveScope_STL_Normal__ctor_System_Single_System_Single_System_Single_
-  commentId: M:LiveScope.STL.Normal.#ctor(System.Single,System.Single,System.Single)
-  name.vb: New(Single, Single, Single)
-  fullName: LiveScope.STL.Normal.Normal(float, float, float)
-  fullName.vb: LiveScope.STL.Normal.New(Single, Single, Single)
-  nameWithType: Normal.Normal(float, float, float)
-  nameWithType.vb: Normal.New(Single, Single, Single)
-- uid: LiveScope.STL.Normal.#ctor*
-  name: Normal
-  href: api/LiveScope.STL.Normal.html#LiveScope_STL_Normal__ctor_
-  commentId: Overload:LiveScope.STL.Normal.#ctor
-  name.vb: New
-  fullName: LiveScope.STL.Normal.Normal
-  fullName.vb: LiveScope.STL.Normal.New
-  nameWithType: Normal.Normal
-  nameWithType.vb: Normal.New
-- uid: LiveScope.STL.Normal.FromVertex(LiveScope.STL.Vertex)
-  name: FromVertex(Vertex)
-  href: api/LiveScope.STL.Normal.html#LiveScope_STL_Normal_FromVertex_LiveScope_STL_Vertex_
-  commentId: M:LiveScope.STL.Normal.FromVertex(LiveScope.STL.Vertex)
-  fullName: LiveScope.STL.Normal.FromVertex(LiveScope.STL.Vertex)
-  nameWithType: Normal.FromVertex(Vertex)
-- uid: LiveScope.STL.Normal.FromVertex*
-  name: FromVertex
-  href: api/LiveScope.STL.Normal.html#LiveScope_STL_Normal_FromVertex_
-  commentId: Overload:LiveScope.STL.Normal.FromVertex
-  fullName: LiveScope.STL.Normal.FromVertex
-  nameWithType: Normal.FromVertex
-- uid: LiveScope.STL.Normal.Invert
-  name: Invert()
-  href: api/LiveScope.STL.Normal.html#LiveScope_STL_Normal_Invert
-  commentId: M:LiveScope.STL.Normal.Invert
-  fullName: LiveScope.STL.Normal.Invert()
-  nameWithType: Normal.Invert()
-- uid: LiveScope.STL.Normal.Invert*
-  name: Invert
-  href: api/LiveScope.STL.Normal.html#LiveScope_STL_Normal_Invert_
-  commentId: Overload:LiveScope.STL.Normal.Invert
-  fullName: LiveScope.STL.Normal.Invert
-  nameWithType: Normal.Invert
-- uid: LiveScope.STL.Normal.Read(System.IO.BinaryReader)
-  name: Read(BinaryReader)
-  href: api/LiveScope.STL.Normal.html#LiveScope_STL_Normal_Read_System_IO_BinaryReader_
-  commentId: M:LiveScope.STL.Normal.Read(System.IO.BinaryReader)
-  fullName: LiveScope.STL.Normal.Read(System.IO.BinaryReader)
-  nameWithType: Normal.Read(BinaryReader)
-- uid: LiveScope.STL.Normal.Read(System.IO.StreamReader)
-  name: Read(StreamReader)
-  href: api/LiveScope.STL.Normal.html#LiveScope_STL_Normal_Read_System_IO_StreamReader_
-  commentId: M:LiveScope.STL.Normal.Read(System.IO.StreamReader)
-  fullName: LiveScope.STL.Normal.Read(System.IO.StreamReader)
-  nameWithType: Normal.Read(StreamReader)
-- uid: LiveScope.STL.Normal.Read*
-  name: Read
-  href: api/LiveScope.STL.Normal.html#LiveScope_STL_Normal_Read_
-  commentId: Overload:LiveScope.STL.Normal.Read
-  fullName: LiveScope.STL.Normal.Read
-  nameWithType: Normal.Read
-- uid: LiveScope.STL.Normal.ToString
-  name: ToString()
-  href: api/LiveScope.STL.Normal.html#LiveScope_STL_Normal_ToString
-  commentId: M:LiveScope.STL.Normal.ToString
-  fullName: LiveScope.STL.Normal.ToString()
-  nameWithType: Normal.ToString()
-- uid: LiveScope.STL.Normal.ToString*
-  name: ToString
-  href: api/LiveScope.STL.Normal.html#LiveScope_STL_Normal_ToString_
-  commentId: Overload:LiveScope.STL.Normal.ToString
-  fullName: LiveScope.STL.Normal.ToString
-  nameWithType: Normal.ToString
 - uid: LiveScope.STL.STLDocument
   name: STLDocument
   href: api/LiveScope.STL.STLDocument.html
